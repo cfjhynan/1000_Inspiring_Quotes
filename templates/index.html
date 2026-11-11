@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuoteVerse — 1000 Well-Known Quotes</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-brand">
+        <span class="brand-icon">✨</span>
+        <div class="brand-text">
+          <h1>QuoteVerse</h1>
+          <p class="subtitle">1000 Timeless & Famous Quotes</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span class="badge" id="stats-badge">1000 Quotes</span>
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Card: Featured Random Quote -->
+    <section class="hero-section">
+      <div class="quote-card featured-card" id="featured-card">
+        <div class="card-header">
+          <span class="category-pill" id="featured-category">Inspiration</span>
+          <span class="quote-id" id="featured-id">#1</span>
+        </div>
+        <div class="quote-content">
+          <span class="quote-mark open-mark">“</span>
+          <blockquote id="featured-quote">Loading inspiring quote...</blockquote>
+          <span class="quote-mark close-mark">”</span>
+        </div>
+        <div class="card-footer">
+          <cite id="featured-author" class="author-name">— Author</cite>
+          <div class="card-actions">
+            <button id="copy-btn" class="btn btn-secondary" title="Copy quote to clipboard">
+              <span class="btn-icon">📋</span>
+              <span id="copy-text">Copy</span>
+            </button>
+            <button id="new-quote-btn" class="btn btn-primary" title="Get a new random quote (Spacebar)">
+              <span class="btn-icon">🎲</span>
+              <span>New Quote</span>
+              <kbd class="shortcut-key">Space</kbd>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="filter-section">
+      <div class="section-heading">
+        <h2>Explore & Search Collection</h2>
+        <p>Filter by author, browse categories, or search across all 1000 quotes</p>
+      </div>
+
+      <div class="controls-row">
+        <!-- Search Input -->
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="Search by author or quote text... (Press / to focus)" autocomplete="off">
+          <button id="clear-search-btn" class="clear-btn" title="Clear search" style="display: none;">✕</button>
+        </div>
+
+        <!-- Author Filter Dropdown -->
+        <div class="select-box">
+          <select id="author-select" aria-label="Filter by Author">
+            <option value="">All Authors (All)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Category Filter Chips -->
+      <div class="category-chips-wrapper">
+        <label class="chips-label">Categories:</label>
+        <div class="category-chips" id="category-chips">
+          <button class="chip active" data-category="">All</button>
+          <!-- Category buttons populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Filter Feedback & Reset -->
+      <div class="filter-status" id="filter-status">
+        <span id="results-count">Showing all 1000 quotes</span>
+        <button id="reset-filters-btn" class="reset-link" style="display: none;">Reset filters</button>
+      </div>
+    </section>
+
+    <!-- Quotes Grid / Search Results -->
+    <section class="quotes-grid-section">
+      <div class="quotes-grid" id="quotes-grid">
+        <!-- Quote cards inserted dynamically -->
+      </div>
+      <div class="empty-state" id="empty-state" style="display: none;">
+        <span class="empty-icon">🔎</span>
+        <h3>No matching quotes found</h3>
+        <p>Try searching for a different keyword or resetting your filters.</p>
+        <button class="btn btn-secondary" id="empty-reset-btn">Clear Filters</button>
+      </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Powered by <strong>Python Flask</strong> &amp; <strong>Vanilla JavaScript</strong> • Press <kbd>Space</kbd> for random quote, <kbd>/</kbd> to search</p>
+    </footer>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

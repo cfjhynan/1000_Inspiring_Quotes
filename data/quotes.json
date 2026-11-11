@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 2,
+    "quote": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 3,
+    "quote": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "author": "Alan Turing",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 4,
+    "quote": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 5,
+    "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 6,
+    "quote": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 7,
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 8,
+    "quote": "Artificial intelligence is the new electricity.",
+    "author": "Andrew Ng",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 9,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 10,
+    "quote": "Imagination is more important than knowledge.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 11,
+    "quote": "It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.",
+    "author": "Charles Darwin",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 12,
+    "quote": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 13,
+    "quote": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Leadership"
+  },
+  {
+    "id": 14,
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 15,
+    "quote": "The mind is everything. What you think you become.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 16,
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 17,
+    "quote": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.",
+    "author": "Alan Turing",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 18,
+    "quote": "Simplicity is the soul of efficiency.",
+    "author": "Austin Freeman",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 19,
+    "quote": "I think, therefore I am.",
+    "author": "René Descartes",
+    "category": "Philosophy"
+  },
+  {
+    "id": 20,
+    "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 21,
+    "quote": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 22,
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 23,
+    "quote": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 24,
+    "quote": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 25,
+    "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "author": "Albert Einstein",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 26,
+    "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "Maya Angelou",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 27,
+    "quote": "If you want to live a happy life, tie it to a goal, not to people or things.",
+    "author": "Albert Einstein",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 28,
+    "quote": "Never let the fear of striking out keep you from playing the game.",
+    "author": "Babe Ruth",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 29,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 30,
+    "quote": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "author": "Mother Teresa",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 31,
+    "quote": "When you reach the end of your rope, tie a knot in it and hang on.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 32,
+    "quote": "Always remember that you are absolutely unique. Just like everyone else.",
+    "author": "Margaret Mead",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 33,
+    "quote": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+    "author": "Robert Louis Stevenson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 34,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 35,
+    "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "author": "Benjamin Franklin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 36,
+    "quote": "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
+    "author": "Helen Keller",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 37,
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 38,
+    "quote": "Whoever is happy will make others happy too.",
+    "author": "Anne Frank",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 39,
+    "quote": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 40,
+    "quote": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 41,
+    "quote": "As soon as it works, no one calls it AI anymore.",
+    "author": "John McCarthy",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 42,
+    "quote": "Artificial intelligence will reach human levels by around 2029. Follow that out to 2045, we will have multiplied the intelligence a billion-fold.",
+    "author": "Ray Kurzweil",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 43,
+    "quote": "Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don't quit.",
+    "author": "Conrad Hilton",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 44,
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 45,
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 46,
+    "quote": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 47,
+    "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 48,
+    "quote": "I have no special talent. I am only passionately curious.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 49,
+    "quote": "The function of good software is to make the complex appear to be simple.",
+    "author": "Grady Booch",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 50,
+    "quote": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 51,
+    "quote": "Knowledge is power.",
+    "author": "Francis Bacon",
+    "category": "Philosophy"
+  },
+  {
+    "id": 52,
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "id": 53,
+    "quote": "That which does not kill us makes us stronger.",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "id": 54,
+    "quote": "An unexamined life is not worth living, but an unlived life is not worth examining.",
+    "author": "Carl Jung",
+    "category": "Philosophy"
+  },
+  {
+    "id": 55,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 56,
+    "quote": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "category": "Leadership"
+  },
+  {
+    "id": 57,
+    "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "author": "Martin Luther King Jr",
+    "category": "Leadership"
+  },
+  {
+    "id": 58,
+    "quote": "The arc of the moral universe is long, but it bends toward justice.",
+    "author": "Martin Luther King Jr",
+    "category": "Leadership"
+  },
+  {
+    "id": 59,
+    "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 60,
+    "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 61,
+    "quote": "If I have seen further it is by standing on the shoulders of Giants.",
+    "author": "Isaac Newton",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 62,
+    "quote": "Nature is pleased with simplicity. And nature is no dummy.",
+    "author": "Isaac Newton",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 63,
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 64,
+    "quote": "Quality is not an act, it is a habit.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 65,
+    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 66,
+    "quote": "An eye for an eye will only make the whole world blind.",
+    "author": "Mahatma Gandhi",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 67,
+    "quote": "The man who moves a mountain begins by carrying away small stones.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 68,
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 69,
+    "quote": "Real knowledge is to know the extent of one's ignorance.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 70,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 71,
+    "quote": "The greatest weapon against stress is our ability to choose one thought over another.",
+    "author": "William James",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 72,
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 73,
+    "quote": "A room without books is like a body without a soul.",
+    "author": "Marcus Tullius Cicero",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 74,
+    "quote": "If you have a garden and a library, you have everything you need.",
+    "author": "Marcus Tullius Cicero",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 75,
+    "quote": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 76,
+    "quote": "Waste no more time arguing about what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 77,
+    "quote": "The soul becomes dyed with the color of its thoughts.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 78,
+    "quote": "Very little is needed to make a happy life; it is all within yourself, in your way of thinking.",
+    "author": "Marcus Aurelius",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 79,
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 80,
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 81,
+    "quote": "I can resist everything except temptation.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 82,
+    "quote": "We are all in the gutter, but some of us are looking at the stars.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 83,
+    "quote": "The question isn't who is going to let me; it's who is going to stop me.",
+    "author": "Ayn Rand",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 84,
+    "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+    "author": "Colin Powell",
+    "category": "Leadership"
+  },
+  {
+    "id": 85,
+    "quote": "Leadership and learning are indispensable to each other.",
+    "author": "John F. Kennedy",
+    "category": "Leadership"
+  },
+  {
+    "id": 86,
+    "quote": "Ask not what your country can do for you - ask what you can do for your country.",
+    "author": "John F. Kennedy",
+    "category": "Leadership"
+  },
+  {
+    "id": 87,
+    "quote": "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+    "author": "John F. Kennedy",
+    "category": "Leadership"
+  },
+  {
+    "id": 88,
+    "quote": "Not everything that can be counted counts, and not everything that counts can be counted.",
+    "author": "Albert Einstein",
+    "category": "Philosophy"
+  },
+  {
+    "id": 89,
+    "quote": "Everything should be made as simple as possible, but not simpler.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 90,
+    "quote": "I have learned over the years that when one's mind is made up, this diminishes fear.",
+    "author": "Rosa Parks",
+    "category": "Leadership"
+  },
+  {
+    "id": 91,
+    "quote": "Knowing what must be done does away with fear.",
+    "author": "Rosa Parks",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 92,
+    "quote": "If you look at what you have in life, you'll always have more.",
+    "author": "Oprah Winfrey",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 93,
+    "quote": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 94,
+    "quote": "The biggest adventure you can take is to live the life of your dreams.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 95,
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 96,
+    "quote": "If you're going through hell, keep going.",
+    "author": "Winston Churchill",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 97,
+    "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+    "author": "Winston Churchill",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 98,
+    "quote": "Artificial intelligence is not a substitute for human intelligence; it is a tool to amplify human ingenuity.",
+    "author": "Fei-Fei Li",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 99,
+    "quote": "Machines take me by surprise with great frequency.",
+    "author": "Alan Turing",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 100,
+    "quote": "We can see only a little of the future, but enough to realize there is much to be done.",
+    "author": "Alan Turing",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 101,
+    "quote": "Computer science is no more about computers than astronomy is about telescopes.",
+    "author": "Edsger W. Dijkstra",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 102,
+    "quote": "The question of whether machines can think is about as relevant as the question of whether submarines can swim.",
+    "author": "Edsger W. Dijkstra",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 103,
+    "quote": "Simplicity is prerequisite for reliability.",
+    "author": "Edsger W. Dijkstra",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 104,
+    "quote": "The most dangerous phrase in the language is, We have always done it this way.",
+    "author": "Grace Hopper",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 105,
+    "quote": "It is often easier to ask for forgiveness than to ask for permission.",
+    "author": "Grace Hopper",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 106,
+    "quote": "A ship in port is safe, but that is not what ships are built for.",
+    "author": "Grace Hopper",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 107,
+    "quote": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 108,
+    "quote": "Simple things should be simple, complex things should be possible.",
+    "author": "Alan Kay",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 109,
+    "quote": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 110,
+    "quote": "Intelligence is the computational part of the ability to achieve goals in the world.",
+    "author": "John McCarthy",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 111,
+    "quote": "Information is the resolution of uncertainty.",
+    "author": "Claude Shannon",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 112,
+    "quote": "You can have data without information, but you cannot have information without data.",
+    "author": "Daniel Keys Moran",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 113,
+    "quote": "Premature optimization is the root of all evil in programming.",
+    "author": "Donald Knuth",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 114,
+    "quote": "An algorithm must be seen to be believed.",
+    "author": "Donald Knuth",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 115,
+    "quote": "We are entering a new era of intelligence where computers can learn from experience.",
+    "author": "Demis Hassabis",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 116,
+    "quote": "Machine intelligence is the last invention that humanity will ever need to make.",
+    "author": "Nick Bostrom",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 117,
+    "quote": "The analytical engine weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves.",
+    "author": "Ada Lovelace",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 118,
+    "quote": "Nobody should start to undertake a large project. You start with a small trivial project, and you should never expect it to become something big.",
+    "author": "Linus Torvalds",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 119,
+    "quote": "The computer was born to solve problems that did not exist before.",
+    "author": "Bill Gates",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 120,
+    "quote": "Walking on water and developing software from a specification are easy if both are frozen.",
+    "author": "Edward V. Berard",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 121,
+    "quote": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 122,
+    "quote": "Good software, like wine, takes time.",
+    "author": "Joel Spolsky",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 123,
+    "quote": "Controlling complexity is the essence of computer programming.",
+    "author": "Brian Kernighan",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 124,
+    "quote": "Software is eating the world.",
+    "author": "Marc Andreessen",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 125,
+    "quote": "The advance of technology is based on making it fit in so that you do not even notice it.",
+    "author": "Bill Gates",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 126,
+    "quote": "Technology is best when it brings people together.",
+    "author": "Matt Mullenweg",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 127,
+    "quote": "Code is like humour. When you have to explain it, it is bad.",
+    "author": "Cory House",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 128,
+    "quote": "Before software can be reusable it first has to be usable.",
+    "author": "Ralph Johnson",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 129,
+    "quote": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 130,
+    "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "author": "Martin Fowler",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 131,
+    "quote": "Truth can only be found in one place: the code.",
+    "author": "Robert C. Martin",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 132,
+    "quote": "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime.",
+    "author": "Waseem Latif",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 133,
+    "quote": "The development of full artificial intelligence could spell the end of the human race.",
+    "author": "Stephen Hawking",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 134,
+    "quote": "AI is probably the most important thing humanity has ever worked on.",
+    "author": "Sundar Pichai",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 135,
+    "quote": "Machine learning is the new electricity.",
+    "author": "Andrew Ng",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 136,
+    "quote": "Computing is not about computers any more. It is about living.",
+    "author": "Nicholas Negroponte",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 137,
+    "quote": "Software developers are the architects and builders of the digital future.",
+    "author": "Satya Nadella",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 138,
+    "quote": "The goal of AI is to make computer systems capable of performing tasks that typically require human intelligence.",
+    "author": "Fei-Fei Li",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 139,
+    "quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose.",
+    "author": "Bill Gates",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "id": 140,
+    "quote": "Be the chief but never the lord.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 141,
+    "quote": "God always takes the simplest way.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 142,
+    "quote": "A house divided against itself cannot stand.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 143,
+    "quote": "Difficulties increase the nearer we get to the goal.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 144,
+    "quote": "Having nothing, nothing can he lose.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 145,
+    "quote": "You can observe a lot just by watching.",
+    "author": "Yogi Berra",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 146,
+    "quote": "Well begun is half done.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 147,
+    "quote": "Who sows virtue reaps honour.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 148,
+    "quote": "Peace comes from within. Do not seek it without.",
+    "author": "Buddha",
+    "category": "Leadership"
+  },
+  {
+    "id": 149,
+    "quote": "Nothing happens unless first we dream.",
+    "author": "Carl Sandburg",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 150,
+    "quote": "The two most powerful warriors are patience and time.",
+    "author": "Leo Tolstoy",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 151,
+    "quote": "Fate is in your hands and no one elses.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 152,
+    "quote": "To lead people walk behind them.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 153,
+    "quote": "Learn from yesterday, live for today, hope for tomorrow.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 154,
+    "quote": "Ideas are the beginning points of all fortunes.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 155,
+    "quote": "Trouble is only opportunity in work clothes.",
+    "author": "Henry J. Kaiser",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 156,
+    "quote": "Love all, trust a few, do wrong to none.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 157,
+    "quote": "Life is a learning experience, only if you learn.",
+    "author": "Yogi Berra",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 158,
+    "quote": "Doing nothing is better than being busy doing nothing.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 159,
+    "quote": "Think how hard physics would be if particles could think.",
+    "author": "Murray Gell-Mann",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 160,
+    "quote": "Don't wait. The time will never be just right.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 161,
+    "quote": "One fails forward toward success.",
+    "author": "Charles Kettering",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 162,
+    "quote": "He that is giddy thinks the world turns round.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 163,
+    "quote": "Self-complacency is fatal to progress.",
+    "author": "Margaret Sangster",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 164,
+    "quote": "Study the past, if you would divine the future.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 165,
+    "quote": "I never think of the future. It comes soon enough.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 166,
+    "quote": "You give before you get.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 167,
+    "quote": "Never mistake activity for achievement.",
+    "author": "John Wooden",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 168,
+    "quote": "Speak low, if you speak love.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 169,
+    "quote": "What you give is what you get.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 170,
+    "quote": "Be as you wish to seem.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 171,
+    "quote": "All our knowledge has its origins in our perceptions.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 172,
+    "quote": "Without courage, wisdom bears no fruit.",
+    "author": "Baltasar Gracian",
+    "category": "Leadership"
+  },
+  {
+    "id": 173,
+    "quote": "Goals are the fuel in the furnace of achievement.",
+    "author": "Brian Tracy",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 174,
+    "quote": "Experience is simply the name we give our mistakes.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 175,
+    "quote": "We can only learn to love by loving.",
+    "author": "Iris Murdoch",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 176,
+    "quote": "Wisdom begins in wonder.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 177,
+    "quote": "Nothing strengthens authority so much as silence.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 178,
+    "quote": "Important principles may, and must, be inflexible.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 179,
+    "quote": "A goal without a plan is just a wish.",
+    "author": "Larry Elder",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 180,
+    "quote": "Life isn't about finding yourself. Life is about creating yourself.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 181,
+    "quote": "Life is change. Growth is optional. Choose wisely.",
+    "author": "Karen Clark",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 182,
+    "quote": "Change in all things is sweet.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 183,
+    "quote": "The only real valuable thing is intuition.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 184,
+    "quote": "Courage is going from failure to failure without losing enthusiasm.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 185,
+    "quote": "To succeed, we must first believe that we can.",
+    "author": "Michael Korda",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 186,
+    "quote": "Life is the flower for which love is the honey.",
+    "author": "Victor Hugo",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 187,
+    "quote": "You'll see it when you believe it.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 188,
+    "quote": "Anticipate the difficult by managing the easy.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 189,
+    "quote": "Once we accept our limits, we go beyond them.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 190,
+    "quote": "Those who are free of resentful thoughts surely find peace.",
+    "author": "Buddha",
+    "category": "Leadership"
+  },
+  {
+    "id": 191,
+    "quote": "Do, or do not. There is no try.",
+    "author": "Yoda",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 192,
+    "quote": "Be great in act, as you have been in thought.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 193,
+    "quote": "A rolling stone gathers no moss.",
+    "author": "Publilius Syrus",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 194,
+    "quote": "Luck is what happens when preparation meets opportunity.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 195,
+    "quote": "Nature takes away any faculty that is not used.",
+    "author": "William R. Inge",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 196,
+    "quote": "No one can make you feel inferior without your consent.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 197,
+    "quote": "What you fear is that which requires action to overcome.",
+    "author": "Byron Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 198,
+    "quote": "Don't cry because it's over. Smile because it happened.",
+    "author": "Dr. Seuss",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 199,
+    "quote": "Everything in life is luck.",
+    "author": "Donald Trump",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 200,
+    "quote": "No man was ever wise by chance.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 201,
+    "quote": "The beginning of knowledge is the discovery of something we do not understand.",
+    "author": "Frank Herbert",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 202,
+    "quote": "Victory belongs to the most persevering.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 203,
+    "quote": "When performance exceeds ambition, the overlap is called success.",
+    "author": "Cullen Hightower",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 204,
+    "quote": "Whenever you have eliminated the impossible, whatever remains, however improbable, must be the truth.",
+    "author": "Arthur Conan Doyle",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 205,
+    "quote": "Trust yourself. You know more than you think you do.",
+    "author": "Benjamin Spock",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 206,
+    "quote": "Truth is powerful and it prevails.",
+    "author": "Sojourner Truth",
+    "category": "Philosophy"
+  },
+  {
+    "id": 207,
+    "quote": "I never see what has been done; I only see what remains to be done.",
+    "author": "Marie Curie",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 208,
+    "quote": "A goal is a dream with a deadline.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 209,
+    "quote": "I believe that every person is born with talent.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 210,
+    "quote": "Happiness comes when your work and words are of benefit to yourself and others.",
+    "author": "Buddha",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 211,
+    "quote": "From error to error one discovers the entire truth.",
+    "author": "Sigmund Freud",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 212,
+    "quote": "Our intention creates our reality.",
+    "author": "Wayne Dyer",
+    "category": "Philosophy"
+  },
+  {
+    "id": 213,
+    "quote": "Life is a process. We are a process. The universe is a process.",
+    "author": "Anne Schaef",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 214,
+    "quote": "You can do it if you believe you can!",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 215,
+    "quote": "The undertaking of a new action brings new strength.",
+    "author": "Richard Evans",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 216,
+    "quote": "A thing long expected takes the form of the unexpected when at last it comes.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 217,
+    "quote": "Well done is better than well said.",
+    "author": "Benjamin Franklin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 218,
+    "quote": "Silence is a true friend who never betrays.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 219,
+    "quote": "Everything is perfect in the universe  even your desire to improve it.",
+    "author": "Wayne Dyer",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 220,
+    "quote": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 221,
+    "quote": "In order to win, you must expect to win.",
+    "author": "Richard Bach",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 222,
+    "quote": "The world is a book, and those who do not travel read only a page.",
+    "author": "Augustinus Sanctus",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 223,
+    "quote": "Bite off more than you can chew, then chew it.",
+    "author": "Ella Williams",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 224,
+    "quote": "Reality does not conform to the ideal, but confirms it.",
+    "author": "Gustave Flaubert",
+    "category": "Philosophy"
+  },
+  {
+    "id": 225,
+    "quote": "The universe is full of magical things, patiently waiting for our wits to grow sharper.",
+    "author": "Eden Phillpotts",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 226,
+    "quote": "No alibi will save you from accepting the responsibility.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 227,
+    "quote": "Set your goals high, and don't stop till you get there.",
+    "author": "Bo Jackson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 228,
+    "quote": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "author": "Leo Tolstoy",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 229,
+    "quote": "Work out your own salvation. Do not depend on others.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 230,
+    "quote": "Reality leaves a lot to the imagination.",
+    "author": "John Lennon",
+    "category": "Philosophy"
+  },
+  {
+    "id": 231,
+    "quote": "Yeah we all shine on, like the moon, and the stars, and the sun.",
+    "author": "John Lennon",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 232,
+    "quote": "Life shrinks or expands in proportion to one's courage.",
+    "author": "Anais Nin",
+    "category": "Leadership"
+  },
+  {
+    "id": 233,
+    "quote": "Do more than dream: work.",
+    "author": "William Arthur Ward",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 234,
+    "quote": "A life spent making mistakes is not only more honourable but more useful than a life spent in doing nothing.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 235,
+    "quote": "One today is worth two tomorrows.",
+    "author": "Benjamin Franklin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 236,
+    "quote": "The greatest remedy for anger is delay.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 237,
+    "quote": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 238,
+    "quote": "You have to believe in yourself.",
+    "author": "Sun Tzu",
+    "category": "Leadership"
+  },
+  {
+    "id": 239,
+    "quote": "Yesterday I dared to struggle. Today I dare to win.",
+    "author": "Bernadette Devlin",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 240,
+    "quote": "Don't leave a stone unturned. It's always something, to know you have done the most you could.",
+    "author": "Charles Dickens",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 241,
+    "quote": "Once you choose hope, anythings possible.",
+    "author": "Christopher Reeve",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 242,
+    "quote": "Wherever you go, go with all your heart.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 243,
+    "quote": "Feeling and longing are the motive forces behind all human endeavor and human creations.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 244,
+    "quote": "The truest wisdom is a resolute determination.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 245,
+    "quote": "If you can dream it, you can do it.",
+    "author": "Walt Disney",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 246,
+    "quote": "Be not afraid of greatness: some are born great, some achieve greatness, and some have greatness thrust upon them.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 247,
+    "quote": "The world is always in movement.",
+    "author": "V. Naipaul",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 248,
+    "quote": "Each day provides its own gifts.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 249,
+    "quote": "There is nothing in a caterpillar that tells you it's going to be a butterfly.",
+    "author": "Buckminster Fuller",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 250,
+    "quote": "We must become the change we want to see.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 251,
+    "quote": "Whatever happens, take responsibility.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 252,
+    "quote": "There is only one corner of the universe you can be certain of improving, and that's your own self.",
+    "author": "Aldous Huxley",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 253,
+    "quote": "What worries you masters you.",
+    "author": "Haddon Robinson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 254,
+    "quote": "The more you know yourself, the more you forgive yourself.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 255,
+    "quote": "You, yourself, as much as anybody in the entire universe, deserve your love and affection.",
+    "author": "Buddha",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 256,
+    "quote": "Happiness is found in doing, not merely possessing.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 257,
+    "quote": "While we stop to think, we often miss our opportunity.",
+    "author": "Publilius Syrus",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 258,
+    "quote": "We must never forget that it is through our actions, words, and thoughts that we have a choice.",
+    "author": "Sogyal Rinpoche",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 259,
+    "quote": "One faces the future with ones past.",
+    "author": "Pearl Buck",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 260,
+    "quote": "Freedom is the right to live as we wish.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 261,
+    "quote": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigour of the mind.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 262,
+    "quote": "I destroy my enemies when I make them my friends.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 263,
+    "quote": "There is no failure except in no longer trying.",
+    "author": "Elbert Hubbard",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 264,
+    "quote": "Experience is not what happens to a man. It is what a man does with what happens to him.",
+    "author": "Aldous Huxley",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 265,
+    "quote": "Be kind whenever possible. It is always possible.",
+    "author": "Dalai Lama",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 266,
+    "quote": "Loss is nothing else but change,and change is Natures delight.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 267,
+    "quote": "Be glad of life because it gives you the chance to love, to work, to play, and to look up at the stars.",
+    "author": "Henry Van Dyke",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 268,
+    "quote": "I allow my intuition to lead my path.",
+    "author": "Manuel Puig",
+    "category": "Leadership"
+  },
+  {
+    "id": 269,
+    "quote": "Keep true to the dreams of thy youth.",
+    "author": "Friedrich von Schiller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 270,
+    "quote": "The only thing to do with good advice is to pass it on. It is never of any use to oneself.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 271,
+    "quote": "He is able who thinks he is able.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 272,
+    "quote": "He who talks more is sooner exhausted.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 273,
+    "quote": "I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars.",
+    "author": "Og Mandino",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 274,
+    "quote": "Imagination rules the world.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 275,
+    "quote": "Strong beliefs win strong men, and then make them stronger.",
+    "author": "Richard Bach",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 276,
+    "quote": "Today, give a stranger a smile without waiting for it may be the joy they need to have a great day.",
+    "author": "Byron Pulsifer",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 277,
+    "quote": "A weed is no more than a flower in disguise.",
+    "author": "James Lowell",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 278,
+    "quote": "He who is contented is rich.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 279,
+    "quote": "By nature man hates change; seldom will he quit his old home till it has actually fallen around his ears.",
+    "author": "Thomas Carlyle",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 280,
+    "quote": "Fears are nothing more than a state of mind.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 281,
+    "quote": "Keep yourself to the sunshine and you cannot see the shadow.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 282,
+    "quote": "Appreciation can make a day, even change a life. Your willingness to put it into words is all that is necessary.",
+    "author": "Margaret Cousins",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 283,
+    "quote": "All serious daring starts from within.",
+    "author": "Harriet Beecher Stowe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 284,
+    "quote": "What we achieve inwardly will change outer reality.",
+    "author": "Plutarch",
+    "category": "Philosophy"
+  },
+  {
+    "id": 285,
+    "quote": "The highest stage in moral ure at which we can arrive is when we recognize that we ought to control our thoughts.",
+    "author": "Charles Darwin",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 286,
+    "quote": "Efficiency is doing things right; effectiveness is doing the right things.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 287,
+    "quote": "Inspiration exists, but it has to find us working.",
+    "author": "Pablo Picasso",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 288,
+    "quote": "The aim of life is self-development. To realize ones nature perfectly  that is what each of us is here for.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 289,
+    "quote": "The best teacher is experience learned from failures.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 290,
+    "quote": "Our strength grows out of our weaknesses.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 291,
+    "quote": "Let me tell you the secret that has led me to my goal: my strength lies solely in my tenacity.",
+    "author": "Louis Pasteur",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 292,
+    "quote": "You can't shake hands with a clenched fist.",
+    "author": "Indira Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 293,
+    "quote": "Pick battles big enough to matter, small enough to win.",
+    "author": "Jonathan Kozol",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 294,
+    "quote": "How far that little candle throws its beams! So shines a good deed in a naughty world.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 295,
+    "quote": "Love is the flower you've got to let grow.",
+    "author": "John Lennon",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 296,
+    "quote": "No snowflake in an avalanche ever feels responsible.",
+    "author": "Voltaire",
+    "category": "Philosophy"
+  },
+  {
+    "id": 297,
+    "quote": "How wonderful that we have met with a paradox. Now we have some hope of making progress.",
+    "author": "Niels Bohr",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 298,
+    "quote": "Never put off till tomorrow what you can do today.",
+    "author": "Thomas Jefferson",
+    "category": "Leadership"
+  },
+  {
+    "id": 299,
+    "quote": "The path to success is to take massive, determined action.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 300,
+    "quote": "Memory is the mother of all wisdom.",
+    "author": "Samuel Johnson",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 301,
+    "quote": "Time is the wisest counsellor of all.",
+    "author": "Pericles",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 302,
+    "quote": "The mind unlearns with difficulty what it has long learned.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 303,
+    "quote": "I believe that a simple and unassuming manner of life is best for everyone, best both for the body and the mind.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 304,
+    "quote": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 305,
+    "quote": "Either you run the day or the day runs you.",
+    "author": "Jim Rohn",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 306,
+    "quote": "God has given you one face, and you make yourself another.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 307,
+    "quote": "Real magic in relationships means an absence of judgement of others.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 308,
+    "quote": "Science is organized knowledge. Wisdom is organized life.",
+    "author": "Immanuel Kant",
+    "category": "Philosophy"
+  },
+  {
+    "id": 309,
+    "quote": "If the stars should appear but one night every thousand years how man would marvel and adore.",
+    "author": "Ralph Emerson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 310,
+    "quote": "I think somehow we learn who we really are and then live with that decision.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 311,
+    "quote": "Follow your instincts. That is where true wisdom manifests itself.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 312,
+    "quote": "People seldom notice old clothes if you wear a big smile.",
+    "author": "Lee Mildon",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 313,
+    "quote": "Skill to do comes of doing.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 314,
+    "quote": "Autumn is a second spring when every leaf is a flower.",
+    "author": "Albert Camus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 315,
+    "quote": "Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more.",
+    "author": "Nikola Tesla",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 316,
+    "quote": "Short words are best and the old words when short are best of all.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 317,
+    "quote": "To accomplish great things, we must dream as well as act.",
+    "author": "Anatole France",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 318,
+    "quote": "Myths which are believed in tend to become true.",
+    "author": "George Orwell",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 319,
+    "quote": "Wisdom is the supreme part of happiness.",
+    "author": "Sophocles",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 320,
+    "quote": "Difficulties are things that show a person what they are.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 321,
+    "quote": "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
+    "author": "John Muir",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 322,
+    "quote": "Most great people have attained their greatest success just one step beyond their greatest failure.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 323,
+    "quote": "Yesterdays home runs don't win today's games.",
+    "author": "Babe Ruth",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 324,
+    "quote": "Happiness is a Swedish sunset  it is there for all, but most of us look the other way and lose it.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 325,
+    "quote": "The years teach much which the days never know.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 326,
+    "quote": "A prudent question is one half of wisdom.",
+    "author": "Francis Bacon",
+    "category": "Philosophy"
+  },
+  {
+    "id": 327,
+    "quote": "Do not be too timid and squeamish about your reactions. All life is an experiment. The more experiments you make the better.",
+    "author": "Ralph Emerson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 328,
+    "quote": "You have enemies? Good. That means you've stood up for something, sometime in your life.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 329,
+    "quote": "The secret of success is constancy to purpose.",
+    "author": "Benjamin Disraeli",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 330,
+    "quote": "When you realize how perfect everything is you will tilt your head back and laugh at the sky.",
+    "author": "Buddha",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 331,
+    "quote": "Our distrust is very expensive.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 332,
+    "quote": "If you wish to be a writer, write.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 333,
+    "quote": "This world, after all our science and sciences, is still a miracle; wonderful, inscrutable, magical and more, to whosoever will think of it.",
+    "author": "Thomas Carlyle",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 334,
+    "quote": "When your desires are strong enough you will appear to possess superhuman powers to achieve.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 335,
+    "quote": "All the great performers I have worked with are fuelled by a personal dream.",
+    "author": "John Eliot",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 336,
+    "quote": "I am of the opinion that my life belongs to the community, and as long as I live it is my privilege to do for it whatever I can.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 337,
+    "quote": "All know the way; few actually walk it.",
+    "author": "Bodhidharma",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 338,
+    "quote": "To enjoy life, we must touch much of it lightly.",
+    "author": "Voltaire",
+    "category": "Philosophy"
+  },
+  {
+    "id": 339,
+    "quote": "Try not to become a man of success, but rather try to become a man of value.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 340,
+    "quote": "You have to do your own growing no matter how tall your grandfather was.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 341,
+    "quote": "If we did the things we are capable of, we would astound ourselves.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 342,
+    "quote": "If you smile when no one else is around, you really mean it.",
+    "author": "Andy Rooney",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 343,
+    "quote": "Great talent finds happiness in execution.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 344,
+    "quote": "The heart has its reasons which reason knows not of.",
+    "author": "Blaise Pascal",
+    "category": "Philosophy"
+  },
+  {
+    "id": 345,
+    "quote": "The person who lives life fully, glowing with life's energy, is the person who lives a successful life.",
+    "author": "Daisaku Ikeda",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 346,
+    "quote": "It is fatal to enter any war without the will to win it.",
+    "author": "General Douglas MacArthur",
+    "category": "Leadership"
+  },
+  {
+    "id": 347,
+    "quote": "Successful people ask better questions, and as a result, they get better answers.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 348,
+    "quote": "Mediocrity knows nothing higher than itself, but talent instantly recognizes genius.",
+    "author": "Arthur Conan Doyle",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 349,
+    "quote": "Faith in oneself is the best and safest course.",
+    "author": "Michelangelo",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 350,
+    "quote": "Kind words do not cost much. Yet they accomplish much.",
+    "author": "Blaise Pascal",
+    "category": "Philosophy"
+  },
+  {
+    "id": 351,
+    "quote": "He who is fixed to a star does not change his mind.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 352,
+    "quote": "Most people are about as happy as they make up their minds to be.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 353,
+    "quote": "Action may not always bring happiness; but there is no happiness without action.",
+    "author": "Benjamin Disraeli",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 354,
+    "quote": "Go to your bosom: Knock there, and ask your heart what it doth know.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 355,
+    "quote": "A short saying often contains much wisdom.",
+    "author": "Sophocles",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 356,
+    "quote": "Intuition will tell the thinking mind where to look next.",
+    "author": "Jonas Salk",
+    "category": "Philosophy"
+  },
+  {
+    "id": 357,
+    "quote": "When the solution is simple, God is answering.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 358,
+    "quote": "No man can succeed in a line of endeavor which he does not like.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 359,
+    "quote": "I don't believe in failure. It is not failure if you enjoyed the process.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 360,
+    "quote": "We don't stop playing because we grow old; we grow old because we stop playing.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 361,
+    "quote": "Only do what your heart tells you.",
+    "author": "Princess Diana",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 362,
+    "quote": "To be wrong is nothing unless you continue to remember it.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 363,
+    "quote": "Time stays long enough for anyone who will use it.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 364,
+    "quote": "If you cannot do great things, do small things in a great way.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 365,
+    "quote": "Through perseverance many people win success out of what seemed destined to be certain failure.",
+    "author": "Benjamin Disraeli",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 366,
+    "quote": "Always tell the truth. That way, you don't have to remember what you said.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 367,
+    "quote": "Life is movement-we breathe, we eat, we walk, we move!",
+    "author": "John Pierrakos",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 368,
+    "quote": "An ant on the move does more than a dozing ox.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 369,
+    "quote": "Look forward to spring as a time when you can start to see what nature has to offer once again.",
+    "author": "Byron Pulsifer",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 370,
+    "quote": "Success means having the courage, the determination, and the will to become the person you believe you were meant to be.",
+    "author": "George Sheehan",
+    "category": "Leadership"
+  },
+  {
+    "id": 371,
+    "quote": "If you don't like something, change it. If you can't change it, change your attitude.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 372,
+    "quote": "We know what we are, but know not what we may be.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 373,
+    "quote": "Argue for your limitations, and sure enough theyre yours.",
+    "author": "Richard Bach",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 374,
+    "quote": "A good decision is based on knowledge and not on numbers.",
+    "author": "Plato",
+    "category": "Philosophy"
+  },
+  {
+    "id": 375,
+    "quote": "Every artist dips his brush in his own soul, and paints his own nature into his pictures.",
+    "author": "Henry Ward Beecher",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 376,
+    "quote": "Do you want to know who you are? Don't ask. Act! Action will delineate and define you.",
+    "author": "Thomas Jefferson",
+    "category": "Leadership"
+  },
+  {
+    "id": 377,
+    "quote": "It has never been my object to record my dreams, just to realize them.",
+    "author": "Man Ray",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 378,
+    "quote": "An invasion of armies can be resisted, but not an idea whose time has come.",
+    "author": "Victor Hugo",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 379,
+    "quote": "Smile, breathe, and go slowly.",
+    "author": "Thich Nhat Hanh",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 380,
+    "quote": "The cautious seldom err.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 381,
+    "quote": "A man should look for what is, and not for what he thinks should be.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 382,
+    "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+    "author": "John Quincy Adams",
+    "category": "Leadership"
+  },
+  {
+    "id": 383,
+    "quote": "Opportunity is missed by most because it is dressed in overalls and looks like work.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 384,
+    "quote": "It's important to know that words don't move mountains. Work, exacting work moves mountains.",
+    "author": "Danilo Dolci",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 385,
+    "quote": "Nobody will believe in you unless you believe in yourself.",
+    "author": "Liberace",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 386,
+    "quote": "Begin at once to live and count each separate day as a separate life.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 387,
+    "quote": "If A is success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 388,
+    "quote": "I'm a great believer in luck and I find the harder I work, the more I have of it.",
+    "author": "Thomas Jefferson",
+    "category": "Leadership"
+  },
+  {
+    "id": 389,
+    "quote": "Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish.",
+    "author": "John Adams",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 390,
+    "quote": "When in doubt, tell the truth.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 391,
+    "quote": "Don't ruin the present with the ruined past.",
+    "author": "Ellen Gilchrist",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 392,
+    "quote": "Practice yourself, for heavens sake in little things, and then proceed to greater.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 393,
+    "quote": "Reality is merely an illusion, albeit a very persistent one.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 394,
+    "quote": "Everyone can taste success when the going is easy, but few know how to taste victory when times get tough.",
+    "author": "Byron Pulsifer",
+    "category": "Leadership"
+  },
+  {
+    "id": 395,
+    "quote": "Never bend your head. Always hold it high. Look the world right in the eye.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 396,
+    "quote": "The future is completely open, and we are writing it moment to moment.",
+    "author": "Pema Chodron",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 397,
+    "quote": "Do something wonderful, people may imitate it.",
+    "author": "Albert Schweitzer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 398,
+    "quote": "If one does not know to which port is sailing, no wind is favorable.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 399,
+    "quote": "Peace cannot be kept by force. It can only be achieved by understanding.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 400,
+    "quote": "Friendship with oneself is all important because without it one cannot be friends with anybody else in the world.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 401,
+    "quote": "If you spend too much time thinking about a thing, you'll never get it done.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 402,
+    "quote": "Don't frown because you never know who is falling in love with your smile.",
+    "author": "Sinvyest Tan",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 403,
+    "quote": "If you cannot be silent be brilliant and thoughtful.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 404,
+    "quote": "What you do not want done to yourself, do not do to others.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 405,
+    "quote": "We cannot solve our problems with the same thinking we used when we created them.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 406,
+    "quote": "Peace is not something you wish for. It's something you make, something you do, something you are, and something you give away.",
+    "author": "Robert Fulghum",
+    "category": "Leadership"
+  },
+  {
+    "id": 407,
+    "quote": "Every action of our lives touches on some chord that will vibrate in eternity.",
+    "author": "Edwin Chapin",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 408,
+    "quote": "Much wisdom often goes with fewer words.",
+    "author": "Sophocles",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 409,
+    "quote": "Who looks outside, dreams; who looks inside, awakes.",
+    "author": "Carl Jung",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 410,
+    "quote": "I have done my best: that is about all the philosophy of living one needs.",
+    "author": "Lin-yutang",
+    "category": "Philosophy"
+  },
+  {
+    "id": 411,
+    "quote": "Be less curious about people and more curious about ideas.",
+    "author": "Marie Curie",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 412,
+    "quote": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered.",
+    "author": "Nelson Mandela",
+    "category": "Leadership"
+  },
+  {
+    "id": 413,
+    "quote": "Shoot for the moon. Even if you miss, you'll land among the stars.",
+    "author": "Les Brown",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 414,
+    "quote": "The exercise of an extraordinary gift is the supremest pleasure in life.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 415,
+    "quote": "What we think, we become.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 416,
+    "quote": "It is only when the mind and character slumber that the dress can be seen.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 417,
+    "quote": "Nature is a mutable cloud which is always and never the same.",
+    "author": "Ralph Emerson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 418,
+    "quote": "Cherish your visions and your dreams as they are the children of your soul, the blueprints of your ultimate achievements.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 419,
+    "quote": "It is on our failures that we base a new and different and better success.",
+    "author": "Havelock Ellis",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 420,
+    "quote": "Kindness is the language which the deaf can hear and the blind can see.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 421,
+    "quote": "The shortest answer is doing.",
+    "author": "Lord Herbert",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 422,
+    "quote": "Reviewing what you have learned and learning anew, you are fit to be a teacher.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 423,
+    "quote": "When anger use your energy to do something productive.",
+    "author": "C. Pulsifer",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 424,
+    "quote": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 425,
+    "quote": "Quality is never an accident; it is always the result of intelligent effort.",
+    "author": "John Ruskin",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 426,
+    "quote": "Just as a flower, which seems beautiful has color but no perfume, so are the fruitless words of a man who speaks them but does them not.",
+    "author": "Dhammapada",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 427,
+    "quote": "Trusting our intuition often saves us from disaster.",
+    "author": "Anne Wilson Schaef",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 428,
+    "quote": "Think for yourselves and let others enjoy the privilege to do so too.",
+    "author": "Voltaire",
+    "category": "Philosophy"
+  },
+  {
+    "id": 429,
+    "quote": "If you can't explain it simply, you don't understand it well enough.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 430,
+    "quote": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 431,
+    "quote": "If you want your life to be more rewarding, you have to change the way you think.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 432,
+    "quote": "Trust only movement. Life happens at the level of events, not of words. Trust movement.",
+    "author": "Alfred Adler",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 433,
+    "quote": "Light tomorrow with today!",
+    "author": "Elizabeth Browning",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 434,
+    "quote": "If you correct your mind, the rest of your life will fall into place.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 435,
+    "quote": "Every great advance in science has issued from a new audacity of the imagination.",
+    "author": "John Dewey",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 436,
+    "quote": "If you're walking down the right path and you're willing to keep walking, eventually you'll make progress.",
+    "author": "Barack Obama",
+    "category": "Leadership"
+  },
+  {
+    "id": 437,
+    "quote": "The only difference between your abilities and others is the ability to put yourself in their shoes and actually try.",
+    "author": "Leonardo Ruiz",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 438,
+    "quote": "Human beings, who are almost unique in having the ability to learn from the experience of others, are also remarkable for their apparent disinclination to do so.",
+    "author": "Douglas Adams",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 439,
+    "quote": "Society develops wit, but its contemplation alone forms genius.",
+    "author": "Madame de Stael",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 440,
+    "quote": "I cannot make my days longer so I strive to make them better.",
+    "author": "Henry David Thoreau",
+    "category": "Philosophy"
+  },
+  {
+    "id": 441,
+    "quote": "Wherever a man may happen to turn, whatever a man may undertake, he will always end up by returning to the path which nature has marked out for him.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 442,
+    "quote": "Nothing is predestined: The obstacles of your past can become the gateways that lead to new beginnings.",
+    "author": "Ralph Blum",
+    "category": "Leadership"
+  },
+  {
+    "id": 443,
+    "quote": "A little more persistence, a little more effort, and what seemed hopeless failure may turn to glorious success.",
+    "author": "Elbert Hubbard",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 444,
+    "quote": "There are basically two types of people. People who accomplish things, and people who claim to have accomplished things. The first group is less crowded.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 445,
+    "quote": "The simplest things are often the truest.",
+    "author": "Richard Bach",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 446,
+    "quote": "The superior man is satisfied and composed; the mean man is always full of distress.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 447,
+    "quote": "The universe is made of stories, not atoms.",
+    "author": "Muriel Rukeyser",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 448,
+    "quote": "There is no duty we so underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world.",
+    "author": "Robert Louis Stevenson",
+    "category": "Leadership"
+  },
+  {
+    "id": 449,
+    "quote": "No matter how carefully you plan your goals they will never be more that pipe dreams unless you pursue them with gusto.",
+    "author": "W. Clement Stone",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 450,
+    "quote": "The smallest act of kindness is worth more than the grandest intention.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 451,
+    "quote": "It is better to travel well than to arrive.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 452,
+    "quote": "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 453,
+    "quote": "Setting an example is not the main means of influencing another, it is the only means.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 454,
+    "quote": "Edison failed 10,000 times before he made the electric light. Do not be discouraged if you fail a few times.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 455,
+    "quote": "Good people are good because they've come to wisdom through failure. We get very little wisdom from success, you know.",
+    "author": "William Saroyan",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 456,
+    "quote": "When deeds and words are in accord, the whole world is transformed.",
+    "author": "Chuang Tzu",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 457,
+    "quote": "Character develops itself in the stream of life.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 458,
+    "quote": "Never apologize for showing feelings. When you do so, you apologize for the truth.",
+    "author": "Benjamin Disraeli",
+    "category": "Philosophy"
+  },
+  {
+    "id": 459,
+    "quote": "All truths are easy to understand once they are discovered; the point is to discover them.",
+    "author": "Galileo Galilei",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 460,
+    "quote": "Remember always that you not only have the right to be an individual, you have an obligation to be one.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 461,
+    "quote": "Life is a gift, and it offers us the privilege, opportunity, and responsibility to give something back by becoming more.",
+    "author": "Anthony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 462,
+    "quote": "All the world is a stage, And all the men and women merely players.They have their exits and entrances; Each man in his time plays many parts.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 463,
+    "quote": "You can't stop the waves, but you can learn to surf.",
+    "author": "Jon Kabat-Zinn",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 464,
+    "quote": "The truth you believe and cling to makes you unavailable to hear anything new.",
+    "author": "Pema Chodron",
+    "category": "Philosophy"
+  },
+  {
+    "id": 465,
+    "quote": "We know from science that nothing in the universe exists as an isolated or independent entity.",
+    "author": "Margaret Wheatley",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 466,
+    "quote": "When you have got an elephant by the hind legs and he is trying to run away, it's best to let him run.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 467,
+    "quote": "Our doubts are traitors and make us lose the good we often might win, by fearing to attempt.",
+    "author": "Jane Addams",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 468,
+    "quote": "Anybody can make history. Only a great man can write it.",
+    "author": "Oscar Wilde",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 469,
+    "quote": "Growth itself contains the germ of happiness.",
+    "author": "Pearl Buck",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 470,
+    "quote": "If you would take, you must first give, this is the beginning of intelligence.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 471,
+    "quote": "Everything in the universe goes by indirection. There are no straight lines.",
+    "author": "Ralph Emerson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 472,
+    "quote": "Courage is not about taking risks unknowingly but putting your own being in front of challenges that others may not be able to.",
+    "author": "Byron Pulsifer",
+    "category": "Leadership"
+  },
+  {
+    "id": 473,
+    "quote": "There is only one success  to be able to spend your life in your own way.",
+    "author": "Christopher Morley",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 474,
+    "quote": "However many holy words you read, However many you speak, What good will they do you If you do not act on upon them?",
+    "author": "Buddha",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 475,
+    "quote": "Good luck is another name for tenacity of purpose.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 476,
+    "quote": "To study and not think is a waste. To think and not study is dangerous.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 477,
+    "quote": "Logic will get you from A to B. Imagination will take you everywhere.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 478,
+    "quote": "Take time to deliberate, but when the time for action has arrived, stop thinking and go in.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 479,
+    "quote": "You're not obligated to win. You're obligated to keep trying to do the best you can every day.",
+    "author": "Marian Edelman",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 480,
+    "quote": "Wrinkles should merely indicate where smiles have been.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 481,
+    "quote": "Rainbows apologize for angry skies.",
+    "author": "Sylvia Voirol",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 482,
+    "quote": "The wise man does not lay up his own treasures. The more he gives to others, the more he has for his own.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 483,
+    "quote": "Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it; it's only for wallowing in.",
+    "author": "Katherine Mansfield",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 484,
+    "quote": "Happiness is not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 485,
+    "quote": "Of course there is no formula for success except perhaps an unconditional acceptance of life and what it brings.",
+    "author": "Arthur Rubinstein",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 486,
+    "quote": "It is with words as with sunbeams. The more they are condensed, the deeper they burn.",
+    "author": "Robert Southey",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 487,
+    "quote": "Time is the most valuable thing a man can spend.",
+    "author": "Theophrastus",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 488,
+    "quote": "I will not be concerned at other men is not knowing me;I will be concerned at my own want of ability.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 489,
+    "quote": "In rivers, the water that you touch is the last of what has passed and the first of that which comes; so with present time.",
+    "author": "Leonardo da Vinci",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 490,
+    "quote": "Every adversity, every failure, every heartache carries with it the seed of an equal or greater benefit.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 491,
+    "quote": "A wise man can learn more from a foolish question than a fool can learn from a wise answer.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 492,
+    "quote": "To climb steep hills requires a slow pace at first.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 493,
+    "quote": "I think and that is all that I am.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 494,
+    "quote": "When you are content to be simply yourself and don't compare or compete, everybody will respect you.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 495,
+    "quote": "Great ideas often receive violent opposition from mediocre minds.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 496,
+    "quote": "All achievements, all earned riches, have their beginning in an idea.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 497,
+    "quote": "Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 498,
+    "quote": "My reputation grows with every failure.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 499,
+    "quote": "If the shoe doesn't fit, must we change the foot?",
+    "author": "Gloria Steinem",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 500,
+    "quote": "Make the best use of what is in your power, and take the rest as it happens.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 501,
+    "quote": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.",
+    "author": "Harriet Tubman",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 502,
+    "quote": "You might well remember that nothing can bring you success but yourself.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 503,
+    "quote": "Those who try to do something and fail are infinitely better than those who try nothing and succeed.",
+    "author": "Lloyd Jones",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 504,
+    "quote": "The possibilities are numerous once we decide to act and not react.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 505,
+    "quote": "To bring anything into your life, imagine that it's already there.",
+    "author": "Richard Bach",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 506,
+    "quote": "The reason most goals are not achieved is that we spend our time doing second things first.",
+    "author": "Robert McKain",
+    "category": "Philosophy"
+  },
+  {
+    "id": 507,
+    "quote": "Anyone who doesn't take truth seriously in small matters cannot be trusted in large ones either.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 508,
+    "quote": "Your big opportunity may be right where you are now.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 509,
+    "quote": "If you'll not settle for anything less than your best, you will be amazed at what you can accomplish in your lives.",
+    "author": "Vince Lombardi",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 510,
+    "quote": "Never mistake motion for action.",
+    "author": "Ernest Hemingway",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 511,
+    "quote": "Without faith, nothing is possible. With it, nothing is impossible.",
+    "author": "Mary Bethune",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 512,
+    "quote": "Promises are the uniquely human way of ordering the future, making it predictable and reliable to the extent that this is humanly possible.",
+    "author": "Hannah Arendt",
+    "category": "Philosophy"
+  },
+  {
+    "id": 513,
+    "quote": "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 514,
+    "quote": "Accept challenges, so that you may feel the exhilaration of victory.",
+    "author": "George Patton",
+    "category": "Leadership"
+  },
+  {
+    "id": 515,
+    "quote": "Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 516,
+    "quote": "Translation is the paradigm, the exemplar of all writing. It is translation that demonstrates most vividly the yearning for transformation that underlies every act involving speech, that supremely human gift.",
+    "author": "Harry Burchell Mathews",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 517,
+    "quote": "Whatever we expect with confidence becomes our own self-fulfilling prophecy.",
+    "author": "Brian Tracy",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 518,
+    "quote": "Great indeed is the sublimity of the Creative, to which all beings owe their beginning and which permeates all heaven.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 519,
+    "quote": "One may say the eternal mystery of the world is its comprehensibility.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 520,
+    "quote": "History will be kind to me for I intend to write it.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 521,
+    "quote": "Take no thought of who is right or wrong or who is better than. Be not for or against.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 522,
+    "quote": "The reasonable man adapts himself to the world; the unreasonable man persists in trying to adapt the world to himself. Therefore, all progress depends on the unreasonable man.",
+    "author": "George Bernard Shaw",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 523,
+    "quote": "Everything you can imagine is real.",
+    "author": "Pablo Picasso",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 524,
+    "quote": "Choose a job you love, and you will never have to work a day in your life.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 525,
+    "quote": "Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine.",
+    "author": "Nikola Tesla",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 526,
+    "quote": "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
+    "author": "André Gide",
+    "category": "Leadership"
+  },
+  {
+    "id": 527,
+    "quote": "Don't wait for your feelings to change to take the action. Take the action and your feelings will change.",
+    "author": "Barbara Baron",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 528,
+    "quote": "Those who dream by day are cognizant of many things which escape those who dream only by night.",
+    "author": "Edgar Allan Poe",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 529,
+    "quote": "Fear is a darkroom where negatives develop.",
+    "author": "Usman Asif",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 530,
+    "quote": "True silence is the rest of the mind; it is to the spirit what sleep is to the body, nourishment and refreshment.",
+    "author": "William Penn",
+    "category": "Philosophy"
+  },
+  {
+    "id": 531,
+    "quote": "It is not the possession of truth, but the success which attends the seeking after it, that enriches the seeker and brings happiness to him.",
+    "author": "Max Planck",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 532,
+    "quote": "Can you imagine what I would do if I could do all I can?",
+    "author": "Sun Tzu",
+    "category": "Leadership"
+  },
+  {
+    "id": 533,
+    "quote": "The road leading to a goal does not separate you from the destination; it is essentially a part of it.",
+    "author": "Charles DeLint",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 534,
+    "quote": "To get the full value of joy you must have someone to divide it with.",
+    "author": "Mark Twain",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 535,
+    "quote": "Never ignore a gut feeling, but never believe that it's enough.",
+    "author": "Robert Heller",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 536,
+    "quote": "All our knowledge begins with the senses, proceeds then to the understanding, and ends with reason. There is nothing higher than reason.",
+    "author": "Immanuel Kant",
+    "category": "Philosophy"
+  },
+  {
+    "id": 537,
+    "quote": "A person who never made a mistake never tried anything new.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 538,
+    "quote": "Follow effective action with quiet reflection. From the quiet reflection will come even more effective action.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 539,
+    "quote": "Take things as they are. Punch when you have to punch. Kick when you have to kick.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 540,
+    "quote": "We lost because we told ourselves we lost.",
+    "author": "Leo Tolstoy",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 541,
+    "quote": "Someone is special only if you tell them.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 542,
+    "quote": "Patience is a virtue but you will never ever accomplish anything if you don't exercise action over patience.",
+    "author": "Byron Pulsifer",
+    "category": "Philosophy"
+  },
+  {
+    "id": 543,
+    "quote": "Knowledge has three degrees  opinion, science, illumination. The means or instrument of the first is sense; of the second, dialectic; of the third, intuition.",
+    "author": "Plotinus",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 544,
+    "quote": "The best thing about the future is that it only comes one day at a time.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 545,
+    "quote": "One secret of success in life is for a man to be ready for his opportunity when it comes.",
+    "author": "Benjamin Disraeli",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 546,
+    "quote": "Good advice is always certain to be ignored, but that's no reason not to give it.",
+    "author": "Agatha Christie",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 547,
+    "quote": "There is no way to happiness, happiness is the way.",
+    "author": "Thich Nhat Hanh",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 548,
+    "quote": "Any of us can achieve virtue, if by virtue we merely mean the avoidance of the vices that do not attract us.",
+    "author": "Robert Lynd",
+    "category": "Philosophy"
+  },
+  {
+    "id": 549,
+    "quote": "It is through science that we prove, but through intuition that we discover.",
+    "author": "Jules Poincare",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 550,
+    "quote": "People grow through experience if they meet life honestly and courageously. This is how character is built.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 551,
+    "quote": "The greatest pleasure I know is to do a good action by stealth, and to have it found out by accident.",
+    "author": "Charles Lamb",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 552,
+    "quote": "Discovery consists of seeing what everybody has seen and thinking what nobody else has thought.",
+    "author": "Jonathan Swift",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 553,
+    "quote": "We choose our destiny in the way we treat others.",
+    "author": "Wit",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 554,
+    "quote": "Every man takes the limits of his own field of vision for the limits of the world.",
+    "author": "Arthur Schopenhauer",
+    "category": "Philosophy"
+  },
+  {
+    "id": 555,
+    "quote": "The cosmos is neither moral or immoral; only people are. He who would move the world must first move himself.",
+    "author": "Edward Ericson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 556,
+    "quote": "Until you make peace with who you are, you will never be content with what you have.",
+    "author": "Doris Mortman",
+    "category": "Leadership"
+  },
+  {
+    "id": 557,
+    "quote": "Many of life's failures are people who did not realize how close they were to success when they gave up.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 558,
+    "quote": "If you find yourself in a hole, the first thing to do is stop digging.",
+    "author": "Will Rogers",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 559,
+    "quote": "Fortune favours the brave.",
+    "author": "Virgil",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 560,
+    "quote": "Everything that happens happens as it should, and if you observe carefully, you will find this to be so.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 561,
+    "quote": "There is a way that nature speaks, that land speaks. Most of the time we are simply not patient enough, quiet enough, to pay attention to the story.",
+    "author": "Linda Hogan",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 562,
+    "quote": "Happiness is when what you think, what you say, and what you do are in harmony.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 563,
+    "quote": "If you accept the expectations of others, especially negative ones, then you never will change the outcome.",
+    "author": "Michael Jordan",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 564,
+    "quote": "Strong people make as many mistakes as weak people. Difference is that strong people admit their mistakes, laugh at them, learn from them. That is how they become strong.",
+    "author": "Richard Needham",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 565,
+    "quote": "I believe in one thing only, the power of human will.",
+    "author": "Joseph Stalin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 566,
+    "quote": "In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 567,
+    "quote": "If facts are the seeds that later produce knowledge and wisdom, then the emotions and the impressions of the senses are the fertile soil in which the seeds must grow.",
+    "author": "Rachel Carson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 568,
+    "quote": "To do all that one is able to do, is to be a man; to do all that one would like to do, is to be a god.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 569,
+    "quote": "Im not in this world to live up to your expectations and you're not in this world to live up to mine.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 570,
+    "quote": "It is not in the stars to hold our destiny but in ourselves.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 571,
+    "quote": "The best way out is always through.",
+    "author": "Robert Frost",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 572,
+    "quote": "When you see a man of worth, think of how you may emulate him. When you see one who is unworthy, examine yourself.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 573,
+    "quote": "Dreams come true. Without that possibility, nature would not incite us to have them.",
+    "author": "John Updike",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 574,
+    "quote": "If you let go a little, you will have a little peace. If you let go a lot, you will have a lot of peace.",
+    "author": "Ajahn Chah",
+    "category": "Leadership"
+  },
+  {
+    "id": 575,
+    "quote": "I can't imagine a person becoming a success who doesn't give this game of life everything hes got.",
+    "author": "Walter Cronkite",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 576,
+    "quote": "I like to listen. I have learned a great deal from listening carefully. Most people never listen.",
+    "author": "Ernest Hemingway",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 577,
+    "quote": "No garden is without its weeds.",
+    "author": "Thomas Fuller",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 578,
+    "quote": "Forget about all the reasons why something may not work. You only need to find one good reason why it will.",
+    "author": "Robert Anthony",
+    "category": "Philosophy"
+  },
+  {
+    "id": 579,
+    "quote": "Imagination will often carry us to worlds that never were. But without it we go nowhere.",
+    "author": "Carl Sagan",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 580,
+    "quote": "Before you can inspire with emotion, you must be swamped with it yourself. Before you can move their tears, your own must flow. To convince them, you must yourself believe.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 581,
+    "quote": "You can only grow if you're willing to feel awkward and uncomfortable when you try something new.",
+    "author": "Brian Tracy",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 582,
+    "quote": "The soul is healed by being with children.",
+    "author": "Fyodor Dostoevsky",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 583,
+    "quote": "Problems are only opportunities with thorns on them.",
+    "author": "Hugh Miller",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 584,
+    "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 585,
+    "quote": "Bad times have a scientific value. These are occasions a good learner would not miss.",
+    "author": "Ralph Emerson",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 586,
+    "quote": "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 587,
+    "quote": "It is more important to know where you are going than to get there quickly. Do not mistake activity for achievement.",
+    "author": "Mabel Newcomber",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 588,
+    "quote": "Rock bottom became the solid foundation on which I rebuilt my life.",
+    "author": "J.K. Rowling",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 589,
+    "quote": "Life is just a chance to grow a soul.",
+    "author": "A. Powell Davies",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 590,
+    "quote": "Many people think of prosperity that concerns money only to forget that true prosperity is of the mind.",
+    "author": "Byron Pulsifer",
+    "category": "Philosophy"
+  },
+  {
+    "id": 591,
+    "quote": "There surely is in human nature an inherent propensity to extract all the good out of all the evil.",
+    "author": "Benjamin Haydon",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 592,
+    "quote": "With courage you will dare to take risks, have the strength to be compassionate, and the wisdom to be humble. Courage is the foundation of integrity.",
+    "author": "Keshavan Nair",
+    "category": "Leadership"
+  },
+  {
+    "id": 593,
+    "quote": "You can adopt the attitude there is nothing you can do, or you can see the challenge as your call to action.",
+    "author": "Catherine Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 594,
+    "quote": "No army can withstand the strength of an idea whose time has come.",
+    "author": "Victor Hugo",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 595,
+    "quote": "Mountains cannot be surmounted except by winding paths.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 596,
+    "quote": "Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 597,
+    "quote": "Imagination is everything. It is the preview of life's coming attractions.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 598,
+    "quote": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 599,
+    "quote": "The first requisite for success is the ability to apply your physical and mental energies to one problem incessantly without growing weary.",
+    "author": "Thomas Edison",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 600,
+    "quote": "Sleep that knits up the ravelled sleeve of care. The death of each days life, sore labors bath. Balm of hurt minds, great natures second course. Chief nourisher in life's feast.",
+    "author": "William Shakespeare",
+    "category": "Humour & Literature"
+  },
+  {
+    "id": 601,
+    "quote": "May our hearts garden of awakening bloom with hundreds of flowers.",
+    "author": "Thich Nhat Hanh",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 602,
+    "quote": "Bodily exercise, when compulsory, does no harm to the body; but knowledge which is acquired under compulsion obtains no hold on the mind.",
+    "author": "Plato",
+    "category": "Philosophy"
+  },
+  {
+    "id": 603,
+    "quote": "The true sign of intelligence is not knowledge but imagination.",
+    "author": "Albert Einstein",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 604,
+    "quote": "Freedom is not worth having if it does not connote freedom to err.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 605,
+    "quote": "We could never learn to be brave and patient if there were only joy in the world.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 606,
+    "quote": "Fortune befriends the bold.",
+    "author": "John Dryden",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 607,
+    "quote": "To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 608,
+    "quote": "You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.",
+    "author": "Buckminster Fuller",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 609,
+    "quote": "Better than a thousand hollow words, is one word that brings peace.",
+    "author": "Buddha",
+    "category": "Leadership"
+  },
+  {
+    "id": 610,
+    "quote": "The poor man is not he who is without a cent, but he who is without a dream.",
+    "author": "Harry Kemp",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 611,
+    "quote": "You're never a loser until you quit trying.",
+    "author": "Mike Ditka",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 612,
+    "quote": "At the center of your being you have the answer; you know who you are and you know what you want.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 613,
+    "quote": "Chance favors the prepared mind.",
+    "author": "Louis Pasteur",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 614,
+    "quote": "The price of greatness is responsibility.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 615,
+    "quote": "Face your deficiencies and acknowledge them; but do not let them master you. Let them teach you patience, sweetness, insight.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 616,
+    "quote": "Knowing is not enough; we must apply!",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 617,
+    "quote": "Dreams pass into the reality of action. From the actions stems the dream again; and this interdependence produces the highest form of living.",
+    "author": "Anais Nin",
+    "category": "Philosophy"
+  },
+  {
+    "id": 618,
+    "quote": "What I cannot create, I do not understand.",
+    "author": "Richard Feynman",
+    "category": "Science & Technology"
+  },
+  {
+    "id": 619,
+    "quote": "Decision is a risk rooted in the courage of being free.",
+    "author": "Paul Tillich",
+    "category": "Leadership"
+  },
+  {
+    "id": 620,
+    "quote": "Never do things others can do and will do, if there are things others cannot do or will not do.",
+    "author": "Amelia Earhart",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 621,
+    "quote": "If you surrender to the wind, you can ride it.",
+    "author": "Toni Morrison",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 622,
+    "quote": "Nature gave us one tongue and two ears so we could hear twice as much as we speak.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 623,
+    "quote": "Opportunity often comes disguised in the form of misfortune, or temporary defeat.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 624,
+    "quote": "People of mediocre ability sometimes achieve outstanding success because they don't know when to quit. Most men succeed because they are determined to.",
+    "author": "George Allen",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 625,
+    "quote": "Write your plans in pencil and give God the eraser.",
+    "author": "Paulo Coelho",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 626,
+    "quote": "You are always free to change your mind and choose a different future, or a different past.",
+    "author": "Richard Bach",
+    "category": "Philosophy"
+  },
+  {
+    "id": 627,
+    "quote": "Don't talk about what you have done or what you are going to do.",
+    "author": "Thomas Jefferson",
+    "category": "Leadership"
+  },
+  {
+    "id": 628,
+    "quote": "You can't create in a vacuum. Life gives you the material and dreams can propel new beginnings.",
+    "author": "Byron Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 629,
+    "quote": "Don't compromise yourself. You are all you've got.",
+    "author": "Janis Joplin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 630,
+    "quote": "Mind is everything: muscle, pieces of rubber. All that I am, I am because of my mind.",
+    "author": "Paavo Nurmi",
+    "category": "Philosophy"
+  },
+  {
+    "id": 631,
+    "quote": "He who fears being conquered is sure of defeat.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 632,
+    "quote": "It is in your moments of decision that your destiny is shaped.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 633,
+    "quote": "When you doubt your power, you give power to your doubt.",
+    "author": "Honore de Balzac",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 634,
+    "quote": "Being in humaneness is good. If we select other goodness and thus are far apart from humaneness, how can we be the wise?",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 635,
+    "quote": "As our case is new, we must think and act anew.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 636,
+    "quote": "You block your dream when you allow your fear to grow bigger than your faith.",
+    "author": "Mary Morrissey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 637,
+    "quote": "The cause is hidden. The effect is visible to all.",
+    "author": "Ovid",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 638,
+    "quote": "When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 639,
+    "quote": "The ladder of success is never crowded at the top.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 640,
+    "quote": "If one is lucky, a solitary fantasy can totally transform one million realities.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 641,
+    "quote": "There is no way to prosperity, prosperity is the way.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 642,
+    "quote": "There are only two mistakes one can make along the road to truth; not going all the way, and not starting.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 643,
+    "quote": "I never worry about action, but only inaction.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 644,
+    "quote": "Do not turn back when you are just at the goal.",
+    "author": "Publilius Syrus",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 645,
+    "quote": "Better be ignorant of a matter than half know it.",
+    "author": "Publilius Syrus",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 646,
+    "quote": "A man may fulfil the object of his existence by asking a question he cannot answer, and attempting a task he cannot achieve.",
+    "author": "Oliver Holmes",
+    "category": "Philosophy"
+  },
+  {
+    "id": 647,
+    "quote": "Be sure you put your feet in the right place, then stand firm.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 648,
+    "quote": "Action will remove the doubts that theory cannot solve.",
+    "author": "Tehyi Hsieh",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 649,
+    "quote": "There never was a good knife made of bad steel.",
+    "author": "Benjamin Franklin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 650,
+    "quote": "I am not bothered by the fact that I am unknown. I am bothered when I do not know others.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 651,
+    "quote": "Liberty, taking the word in its concrete sense, consists in the ability to choose.",
+    "author": "Simone Weil",
+    "category": "Leadership"
+  },
+  {
+    "id": 652,
+    "quote": "Give whatever you are doing and whoever you are with the gift of your attention.",
+    "author": "Jim Rohn",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 653,
+    "quote": "Patience is the companion of wisdom.",
+    "author": "Saint Augustine",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 654,
+    "quote": "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 655,
+    "quote": "The world has the habit of making room for the man whose actions show that he knows where he is going.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 656,
+    "quote": "Formula for success: under promise and over deliver.",
+    "author": "Tom Peters",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 657,
+    "quote": "To fly, we have to have resistance.",
+    "author": "Maya Lin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 658,
+    "quote": "The greatest way to live with honor in this world is to be what we pretend to be.",
+    "author": "Socrates",
+    "category": "Philosophy"
+  },
+  {
+    "id": 659,
+    "quote": "Forgiveness is choosing to love. It is the first skill of self-giving love.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 660,
+    "quote": "Nothing diminishes anxiety faster than action.",
+    "author": "Walter Anderson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 661,
+    "quote": "There is no greater harm than that of time wasted.",
+    "author": "Michelangelo",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 662,
+    "quote": "The conditions of conquest are always easy. We have but to toil awhile, endure awhile, believe always, and never turn back.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 663,
+    "quote": "Keep your eyes on the stars and your feet on the ground.",
+    "author": "Theodore Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 664,
+    "quote": "Without some goals and some efforts to reach it, no man can live.",
+    "author": "John Dewey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 665,
+    "quote": "Blaze with the fire that is never extinguished.",
+    "author": "Luisa Sigea",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 666,
+    "quote": "The only way to tell the truth is to speak with kindness. Only the words of a loving man can be heard.",
+    "author": "Henry Thoreau",
+    "category": "Philosophy"
+  },
+  {
+    "id": 667,
+    "quote": "If you want a thing done well, do it yourself.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 668,
+    "quote": "Self-trust is the first secret of success.",
+    "author": "Ralph Emerson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 669,
+    "quote": "No is easier to do. Yes is easier to say.",
+    "author": "Jason Fried",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 670,
+    "quote": "Intuition is the supra-logic that cuts out all the routine processes of thought and leaps straight from the problem to the answer.",
+    "author": "Robert Graves",
+    "category": "Philosophy"
+  },
+  {
+    "id": 671,
+    "quote": "As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.",
+    "author": "John F. Kennedy",
+    "category": "Leadership"
+  },
+  {
+    "id": 672,
+    "quote": "Do not give your attention to what others do or fail to do; give it to what you do or fail to do.",
+    "author": "Dhammapada",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 673,
+    "quote": "Silence is deep as Eternity, Speech is shallow as Time.",
+    "author": "Carlyle",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 674,
+    "quote": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 675,
+    "quote": "Never, never, never give up.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 676,
+    "quote": "The way we communicate with others and with ourselves ultimately determines the quality of our lives.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 677,
+    "quote": "Don't smother each other. No one can grow in the shade.",
+    "author": "Leo F. Buscaglia",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 678,
+    "quote": "You get peace of mind not by thinking about it or imagining it, but by quietening and relaxing the restless mind.",
+    "author": "Remez Sasson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 679,
+    "quote": "It is the quality of our work which will please God, not the quantity.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 680,
+    "quote": "Sometimes it is better to lose and do the right thing than to win and do the wrong thing.",
+    "author": "Tony Blair",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 681,
+    "quote": "If there is no struggle, there is no progress.",
+    "author": "Frederick Douglass",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 682,
+    "quote": "Wisdom is knowing what to do next; Skill is knowing how ot do it, and Virtue is doing it.",
+    "author": "David Jordan",
+    "category": "Philosophy"
+  },
+  {
+    "id": 683,
+    "quote": "Sometimes the biggest act of courage is a small one.",
+    "author": "Lauren Raffo",
+    "category": "Leadership"
+  },
+  {
+    "id": 684,
+    "quote": "A failure is a man who has blundered but is not capable of cashing in on the experience.",
+    "author": "Elbert Hubbard",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 685,
+    "quote": "Where there is great love, there are always miracles.",
+    "author": "Willa Cather",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 686,
+    "quote": "If you seek truth you will not seek victory by dishonourable means, and if you find truth you will become invincible.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 687,
+    "quote": "Always bear in mind that your own resolution to succeed is more important than any one thing.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 688,
+    "quote": "I cannot give you the formula for success, but I can give you the formula for failure: which is: Try to please everybody.",
+    "author": "Herbert Swope",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 689,
+    "quote": "Time you enjoy wasting, was not wasted.",
+    "author": "John Lennon",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 690,
+    "quote": "If it is not right do not do it; if it is not true do not say it.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 691,
+    "quote": "Courage is not the absence of fear, but simply moving on with dignity despite that fear.",
+    "author": "Pat Riley",
+    "category": "Leadership"
+  },
+  {
+    "id": 692,
+    "quote": "Fear of failure is one attitude that will keep you at the same point in your life.",
+    "author": "Byron Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 693,
+    "quote": "Every problem has a gift for you in its hands.",
+    "author": "Richard Bach",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 694,
+    "quote": "The truth of the matter is that you always know the right thing to do. The hard part is doing it.",
+    "author": "Norman Schwarzkopf",
+    "category": "Philosophy"
+  },
+  {
+    "id": 695,
+    "quote": "When we feel love and kindness toward others, it not only makes others feel loved and cared for, but it helps us also to develop inner happiness and peace.",
+    "author": "Tenzin Gyatso",
+    "category": "Leadership"
+  },
+  {
+    "id": 696,
+    "quote": "While we try to teach our children all about life, our children teach us what life is all about.",
+    "author": "Angela Schwindt",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 697,
+    "quote": "Sadness flies away on the wings of time.",
+    "author": "Jean de la Fontaine",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 698,
+    "quote": "Man is equally incapable of seeing the nothingness from which he emerges and the infinity in which he is engulfed.",
+    "author": "Blaise Pascal",
+    "category": "Philosophy"
+  },
+  {
+    "id": 699,
+    "quote": "It takes courage to grow up and become who you really are.",
+    "author": "E. E. Cummings",
+    "category": "Leadership"
+  },
+  {
+    "id": 700,
+    "quote": "For every failure, there's an alternative course of action. You just have to find it. When you come to a roadblock, take a detour.",
+    "author": "Mary Kay Ash",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 701,
+    "quote": "I have often regretted my speech, never my silence.",
+    "author": "Publilius Syrus",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 702,
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 703,
+    "quote": "First comes thought; then organization of that thought, into ideas and plans; then transformation of those plans into reality. The beginning, as you will observe, is in your imagination.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 704,
+    "quote": "The spirit, the will to win, and the will to excel, are the things that endure. These qualities are so much more important than the events that occur.",
+    "author": "Vincent Lombardi",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 705,
+    "quote": "Minds are like parachutes. They only function when open.",
+    "author": "Thomas Dewar",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 706,
+    "quote": "When you are offended at any man's fault, turn to yourself and study your own failings. Then you will forget your anger.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 707,
+    "quote": "The difference between what we do and what we are capable of doing would suffice to solve most of the worlds problems.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 708,
+    "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
+    "author": "Dale Carnegie",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 709,
+    "quote": "If a man does his best, what else is there?",
+    "author": "George Patton",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 710,
+    "quote": "It is not enough to have a good mind; the main thing is to use it well.",
+    "author": "Rene Descartes",
+    "category": "Philosophy"
+  },
+  {
+    "id": 711,
+    "quote": "We make a living by what we get, but we make a life by what we give.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 712,
+    "quote": "You cannot change anything in your life with intention alone, which can become a watered-down, occasional hope that you'll get to tomorrow. Intention without action is useless.",
+    "author": "Caroline Myss",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 713,
+    "quote": "Life is a progress, and not a station.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 714,
+    "quote": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 715,
+    "quote": "The first duty of a human being is to assume the right functional relationship to society  more briefly, to find your real job, and do it.",
+    "author": "Charlotte Perkins Gilman",
+    "category": "Leadership"
+  },
+  {
+    "id": 716,
+    "quote": "No pessimist ever discovered the secrets of the stars, or sailed to an uncharted land, or opened a new heaven to the human spirit.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 717,
+    "quote": "All seasons are beautiful for the person who carries happiness within.",
+    "author": "Horace Friess",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 718,
+    "quote": "When you realize there is nothing lacking, the whole world belongs to you.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 719,
+    "quote": "There is nothing so useless as doing efficiently that which should not be done at all.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 720,
+    "quote": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, vision cleared, ambition inspired, and success achieved.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 721,
+    "quote": "To avoid criticism, do nothing, say nothing, be nothing.",
+    "author": "Elbert Hubbard",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 722,
+    "quote": "All is flux; nothing stays still.",
+    "author": "Heraclitus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 723,
+    "quote": "As we are liberated from our own fear, our presence automatically liberates others.",
+    "author": "Nelson Mandela",
+    "category": "Leadership"
+  },
+  {
+    "id": 724,
+    "quote": "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 725,
+    "quote": "All things change; nothing perishes.",
+    "author": "Ovid",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 726,
+    "quote": "He who lives in harmony with himself lives in harmony with the universe.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 727,
+    "quote": "I walk slowly, but I never walk backward.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 728,
+    "quote": "Adversity isn't set against you to fail; adversity is a way to build your character so that you can succeed over and over again through perseverance.",
+    "author": "Byron Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 729,
+    "quote": "Absence makes the heart grow fonder.",
+    "author": "Haynes Bayly",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 730,
+    "quote": "The truth is always exciting. Speak it, then. Life is dull without it.",
+    "author": "Pearl Buck",
+    "category": "Philosophy"
+  },
+  {
+    "id": 731,
+    "quote": "Focusing your life solely on making a buck shows a poverty of ambition. It asks too little of yourself. And it will leave you unfulfilled.",
+    "author": "Barack Obama",
+    "category": "Leadership"
+  },
+  {
+    "id": 732,
+    "quote": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 733,
+    "quote": "Imagination is the highest kite one can fly.",
+    "author": "Lauren Bacall",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 734,
+    "quote": "The superior man is modest in his speech, but exceeds in his actions.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 735,
+    "quote": "It is common sense to take a method and try it. If it fails, admit it frankly and try another. But above all, try something.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 736,
+    "quote": "Sooner or later, those who win are those who think they can.",
+    "author": "Richard Bach",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 737,
+    "quote": "Love doesn't make the world go round, love is what makes the ride worthwhile.",
+    "author": "Elizabeth Browning",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 738,
+    "quote": "The longer we dwell on our misfortunes, the greater is their power to harm us.",
+    "author": "Voltaire",
+    "category": "Philosophy"
+  },
+  {
+    "id": 739,
+    "quote": "It is not fair to ask of others what you are unwilling to do yourself.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 740,
+    "quote": "The only limit to your impact is your imagination and commitment.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 741,
+    "quote": "Good timber does not grow with ease; the stronger the wind, the stronger the trees.",
+    "author": "J. Willard Marriott",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 742,
+    "quote": "In all things of nature there is something of the marvellous.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 743,
+    "quote": "There is nothing impossible to him who will try.",
+    "author": "Alexander the Great",
+    "category": "Leadership"
+  },
+  {
+    "id": 744,
+    "quote": "Four steps to achievement: Plan purposefully. Prepare prayerfully. Proceed positively. Pursue persistently.",
+    "author": "William Arthur Ward",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 745,
+    "quote": "I believe that we are fundamentally the same and have the same basic potential.",
+    "author": "Dalai Lama",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 746,
+    "quote": "The universe is transformation; our life is what our thoughts make it.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 747,
+    "quote": "Change will not come if we wait for some other person or some other time. We are the ones weve been waiting for. We are the change that we seek.",
+    "author": "Barack Obama",
+    "category": "Leadership"
+  },
+  {
+    "id": 748,
+    "quote": "To know oneself is to study oneself in action with another person.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 749,
+    "quote": "The winds and waves are always on the side of the ablest navigators.",
+    "author": "Edward Gibbon",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 750,
+    "quote": "We must not say every mistake is a foolish one.",
+    "author": "Cicero",
+    "category": "Philosophy"
+  },
+  {
+    "id": 751,
+    "quote": "Our greatness lies not so much in being able to remake the world as being able to remake ourselves.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 752,
+    "quote": "When fate hands us a lemon, lets try to make lemonade.",
+    "author": "Dale Carnegie",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 753,
+    "quote": "Each misfortune you encounter will carry in it the seed of tomorrows good luck.",
+    "author": "Og Mandino",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 754,
+    "quote": "Know, first, who you are, and then adorn yourself accordingly.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 755,
+    "quote": "Reason and free inquiry are the only effectual agents against error.",
+    "author": "Thomas Jefferson",
+    "category": "Leadership"
+  },
+  {
+    "id": 756,
+    "quote": "Success is getting what you want. Happiness is wanting what you get.",
+    "author": "Dale Carnegie",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 757,
+    "quote": "To forgive is to set a prisoner free and realize that prisoner was you.",
+    "author": "Lewis B. Smedes",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 758,
+    "quote": "The eye sees only what the mind is prepared to comprehend.",
+    "author": "Henri Bergson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 759,
+    "quote": "The best cure for the body is a quiet mind.",
+    "author": "Napoleon Bonaparte",
+    "category": "Leadership"
+  },
+  {
+    "id": 760,
+    "quote": "Real success is finding your lifework in the work that you love.",
+    "author": "David McCullough",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 761,
+    "quote": "In separateness lies the world's great misery, in compassion lies the world's true strength.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 762,
+    "quote": "Ignorance never settle a question.",
+    "author": "Benjamin Disraeli",
+    "category": "Philosophy"
+  },
+  {
+    "id": 763,
+    "quote": "Truth is generally the best vindication against slander.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 764,
+    "quote": "As you think, so shall you become.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 765,
+    "quote": "By believing passionately in something that does not yet exist, we create it.",
+    "author": "Nikos Kazantzakis",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 766,
+    "quote": "They must often change, who would be constant in happiness or wisdom.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 767,
+    "quote": "And as we let our own light shine, we unconsciously give other people permission to do the same.",
+    "author": "Nelson Mandela",
+    "category": "Leadership"
+  },
+  {
+    "id": 768,
+    "quote": "When you learn, teach. When you get, give.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 769,
+    "quote": "One of the advantages of being disorderly is that one is constantly making exciting discoveries.",
+    "author": "A. A. Milne",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 770,
+    "quote": "Look back over the past, with its changing empires that rose and fell, and you can foresee the future, too.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 771,
+    "quote": "You must do the things you think you cannot do.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 772,
+    "quote": "Only those who dare to fail greatly can ever achieve greatly.",
+    "author": "Robert Kennedy",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 773,
+    "quote": "If you don't know where you are going, you will probably end up somewhere else.",
+    "author": "Lawrence Peter",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 774,
+    "quote": "Men are disturbed not by things, but by the view which they take of them.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 775,
+    "quote": "If you are going to achieve excellence in big things, you develop the habit in little matters. Excellence is not an exception, it is a prevailing attitude.",
+    "author": "Colin Powell",
+    "category": "Leadership"
+  },
+  {
+    "id": 776,
+    "quote": "Mistakes are always forgivable, if one has the courage to admit them.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 777,
+    "quote": "It is not so important to know everything as to appreciate what we learn.",
+    "author": "Hannah More",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 778,
+    "quote": "Imagination disposes of everything; it creates beauty, justice, and happiness, which are everything in this world.",
+    "author": "Blaise Pascal",
+    "category": "Philosophy"
+  },
+  {
+    "id": 779,
+    "quote": "Sometimes by losing a battle you find a new way to win the war.",
+    "author": "Donald Trump",
+    "category": "Leadership"
+  },
+  {
+    "id": 780,
+    "quote": "Passion creates the desire for more and action fuelled by passion creates a future.",
+    "author": "Byron Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 781,
+    "quote": "The bird of paradise alights only upon the hand that does not grasp.",
+    "author": "John Berry",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 782,
+    "quote": "The least movement is of importance to all nature. The entire ocean is affected by a pebble.",
+    "author": "Blaise Pascal",
+    "category": "Philosophy"
+  },
+  {
+    "id": 783,
+    "quote": "Continuous effortnot strength or intelligenceis the key to unlocking our potential.",
+    "author": "Winston Churchill",
+    "category": "Leadership"
+  },
+  {
+    "id": 784,
+    "quote": "Action is the foundational key to all success.",
+    "author": "Pablo Picasso",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 785,
+    "quote": "Think as a wise man but communicate in the language of the people.",
+    "author": "William Yeats",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 786,
+    "quote": "Men in general judge more from appearances than from reality. All men have eyes, but few have the gift of penetration.",
+    "author": "Niccolo Machiavelli",
+    "category": "Philosophy"
+  },
+  {
+    "id": 787,
+    "quote": "There are no limitations to the mind except those we acknowledge.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 788,
+    "quote": "Positive thinking will let you do everything better than negative thinking will.",
+    "author": "Zig Ziglar",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 789,
+    "quote": "To be upset over what you don't have is to waste what you do have.",
+    "author": "Ken S. Keyes",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 790,
+    "quote": "When we quit thinking primarily about ourselves and our own self-preservation, we undergo a truly heroic transformation of consciousness.",
+    "author": "Joseph Campbell",
+    "category": "Philosophy"
+  },
+  {
+    "id": 791,
+    "quote": "The best way to predict your future is to create it.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 792,
+    "quote": "You always succeed in producing a result.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 793,
+    "quote": "We learn what we have said from those who listen to our speaking.",
+    "author": "Kenneth Patton",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 794,
+    "quote": "Happiness is a perfume you cannot pour on others without getting a few drops on yourself.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 795,
+    "quote": "A leader or a man of action in a crisis almost always acts subconsciously and then thinks of the reasons for his action.",
+    "author": "Jawaharlal Nehru",
+    "category": "Leadership"
+  },
+  {
+    "id": 796,
+    "quote": "Life is a succession of moments. To live each one is to succeed.",
+    "author": "Corita Kent",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 797,
+    "quote": "A little knowledge that acts is worth infinitely more than much knowledge that is idle.",
+    "author": "Kahlil Gibran",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 798,
+    "quote": "In the depth of winter, I finally learned that there was within me an invincible summer.",
+    "author": "Albert Camus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 799,
+    "quote": "No one has a finer command of language than the person who keeps his mouth shut.",
+    "author": "Sam Rayburn",
+    "category": "Leadership"
+  },
+  {
+    "id": 800,
+    "quote": "All great achievements require time.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 801,
+    "quote": "The doors we open and close each day decide the lives we live.",
+    "author": "Flora Whittemore",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 802,
+    "quote": "The power of intuitive understanding will protect you from harm until the end of your days.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 803,
+    "quote": "Six essential qualities that are the key to success: Sincerity, personal integrity, humility, courtesy, wisdom, charity.",
+    "author": "William Menninger",
+    "category": "Leadership"
+  },
+  {
+    "id": 804,
+    "quote": "Quality means doing it right when no one is looking.",
+    "author": "Henry Ford",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 805,
+    "quote": "The worst bankrupt in the world is the person who has lost his enthusiasm.",
+    "author": "H. W. Arnold",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 806,
+    "quote": "We have two ears and one mouth so that we can listen twice as much as we speak.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 807,
+    "quote": "To know your purpose is to live a life of direction, and in that direction is found peace and tranquillity.",
+    "author": "Byron Pulsifer",
+    "category": "Leadership"
+  },
+  {
+    "id": 808,
+    "quote": "Ask yourself the secret of your success. Listen to your answer, and practice it.",
+    "author": "Richard Bach",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 809,
+    "quote": "Just as a candle cannot burn without fire, men cannot live without a spiritual life.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 810,
+    "quote": "A hero is no braver than an ordinary man, but he is braver five minutes longer.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 811,
+    "quote": "We need to find the courage to say NO to the things and people that are not serving us if we want to rediscover ourselves and live our lives with authenticity.",
+    "author": "Barbara De Angelis",
+    "category": "Leadership"
+  },
+  {
+    "id": 812,
+    "quote": "If you love life, don't waste time, for time is what life is made up of.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 813,
+    "quote": "If you light a lamp for somebody, it will also brighten your path.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 814,
+    "quote": "The greatest minds are capable of the greatest vices as well as of the greatest virtues.",
+    "author": "Rene Descartes",
+    "category": "Philosophy"
+  },
+  {
+    "id": 815,
+    "quote": "Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow.",
+    "author": "Melody Beattie",
+    "category": "Leadership"
+  },
+  {
+    "id": 816,
+    "quote": "The greatest barrier to success is the fear of failure.",
+    "author": "Eriksson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 817,
+    "quote": "Give thanks for the rain of life that propels us to reach new horizons.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 818,
+    "quote": "I care not so much what I am to others as what I am to myself. I will be rich by myself, and not by borrowing.",
+    "author": "Michel de Montaigne",
+    "category": "Philosophy"
+  },
+  {
+    "id": 819,
+    "quote": "Here is one quality that one must possess to win, and that is definiteness of purpose, the knowledge of what one wants, and a burning desire to possess it.",
+    "author": "Napoleon Hill",
+    "category": "Leadership"
+  },
+  {
+    "id": 820,
+    "quote": "Stay committed to your decisions, but stay flexible in your approach.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 821,
+    "quote": "The secret to a rich life is to have more beginnings than endings.",
+    "author": "Dave Weinbaum",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 822,
+    "quote": "Man is not sum of what he has already, but rather the sum of what he does not yet have, of what he could have.",
+    "author": "Jean-Paul Sartre",
+    "category": "Philosophy"
+  },
+  {
+    "id": 823,
+    "quote": "I will prepare and some day my chance will come.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 824,
+    "quote": "Aim for success, not perfection. Never give up your right to be wrong, because then you will lose the ability to learn new things and move forward with your life.",
+    "author": "Dr. David M. Burns",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 825,
+    "quote": "So long as a person is capable of self-renewal they are a living being.",
+    "author": "Henri-Frederic Amiel",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 826,
+    "quote": "Wishes can be your best avenue of getting what you want when you turn wishes into action. Action moves your wish to the forefront from thought to reality.",
+    "author": "Byron Pulsifer",
+    "category": "Philosophy"
+  },
+  {
+    "id": 827,
+    "quote": "Creativity takes courage.",
+    "author": "Henri Matisse",
+    "category": "Leadership"
+  },
+  {
+    "id": 828,
+    "quote": "There is no scarcity of opportunity to make a living at what you love; theres only scarcity of resolve to make it happen.",
+    "author": "Wayne Dyer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 829,
+    "quote": "I'm not afraid of storms, for Im learning how to sail my ship.",
+    "author": "Louisa Alcott",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 830,
+    "quote": "When you see a good person, think of becoming like him. When you see someone not so good, reflect on your own weak points.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 831,
+    "quote": "The future depends on what you do today.",
+    "author": "Mahatma Gandhi",
+    "category": "Leadership"
+  },
+  {
+    "id": 832,
+    "quote": "You are the only person on Earth who can use your ability.",
+    "author": "Zig Ziglar",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 833,
+    "quote": "How we spend our days is, of course, how we spend our lives.",
+    "author": "Annie Dillard",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 834,
+    "quote": "The greatest discovery of our generation is that human beings can alter their lives by altering their attitudes of mind. As you think, so shall you be.",
+    "author": "William James",
+    "category": "Philosophy"
+  },
+  {
+    "id": 835,
+    "quote": "You cannot predict the future, but you can create it.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 836,
+    "quote": "Complaining doesn't change a thing only taking action does.",
+    "author": "Byron Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 837,
+    "quote": "The most complicated achievements of thought are possible without the assistance of consciousness.",
+    "author": "Sigmund Freud",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 838,
+    "quote": "If one advances confidently in the direction of his dream, and endeavours to live the life which he had imagines, he will meet with a success unexpected in common hours.",
+    "author": "Henry David Thoreau",
+    "category": "Philosophy"
+  },
+  {
+    "id": 839,
+    "quote": "Until we can manage time, we can manage nothing else.",
+    "author": "Peter Drucker",
+    "category": "Leadership"
+  },
+  {
+    "id": 840,
+    "quote": "With every experience, you alone are painting your own canvas, thought by thought, choice by choice.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 841,
+    "quote": "Be miserable. Or motivate yourself. Whatever has to be done, it's always your choice.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 842,
+    "quote": "When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 843,
+    "quote": "How do you defeat terrorism? Don't be terrorized.",
+    "author": "Salman Rushdie",
+    "category": "Leadership"
+  },
+  {
+    "id": 844,
+    "quote": "Failure doesn't mean you are a failure it just means you haven't succeeded yet.",
+    "author": "Robert Schuller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 845,
+    "quote": "Better to have loved and lost, than to have never loved at all.",
+    "author": "St. Augustine",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 846,
+    "quote": "By letting it go it all gets done. The world is won by those who let it go. But when you try and try. The world is beyond the winning.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 847,
+    "quote": "Courage doesn't happen when you have all the answers. It happens when you are ready to face the questions you have been avoiding your whole life.",
+    "author": "Shannon L. Alder",
+    "category": "Leadership"
+  },
+  {
+    "id": 848,
+    "quote": "Try and fail, but don't fail to try.",
+    "author": "Stephen Kaggwa",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 849,
+    "quote": "The best way to pay for a lovely moment is to enjoy it.",
+    "author": "Richard Bach",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 850,
+    "quote": "Not every difficult and dangerous thing is suitable for training, but only that which is conducive to success in achieving the object of our effort.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 851,
+    "quote": "An army of sheep led by a lion can defeat an army of lions led by a sheep.",
+    "author": "Alfred A. Montapert",
+    "category": "Leadership"
+  },
+  {
+    "id": 852,
+    "quote": "People are not lazy. They simply have impotent goals  that is, goals that do not inspire them.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 853,
+    "quote": "Slow down and everything you are chasing will come around and catch you.",
+    "author": "John De Paola",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 854,
+    "quote": "When you arise in the morning, think of what a precious privilege it is to be alive  to breathe, to think, to enjoy, to love.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 855,
+    "quote": "Perseverance is a great element of success. If you only knock long enough and loud enough at the gate, you are sure to wake up somebody.",
+    "author": "Henry Longfellow",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 856,
+    "quote": "Your worst enemy cannot harm you as much as your own unguarded thoughts.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 857,
+    "quote": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 858,
+    "quote": "Setting goals is the first step in turning the invisible into the visible.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 859,
+    "quote": "I always wanted to be somebody, but I should have been more specific.",
+    "author": "Lily Tomlin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 860,
+    "quote": "My advice to you is not to inquire why or whither, but just enjoy your ice cream while its on your plate  that's my philosophy.",
+    "author": "Thornton Wilder",
+    "category": "Philosophy"
+  },
+  {
+    "id": 861,
+    "quote": "We may encounter many defeats but we must not be defeated.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 862,
+    "quote": "Knowledge is a process of piling up facts; wisdom lies in their simplification.",
+    "author": "Martin Fischer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 863,
+    "quote": "He who conquers others is strong; He who conquers himself is mighty.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 864,
+    "quote": "Leaders aren't born they are made. And they are made just like anything else, through hard work. And that's the price well have to pay to achieve that goal, or any goal.",
+    "author": "Vince Lombardi",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 865,
+    "quote": "We should all be thankful for those people who rekindle the inner spirit.",
+    "author": "Albert Schweitzer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 866,
+    "quote": "Truth isn't all about what actually happens but more about how what has happened is interpreted.",
+    "author": "Byron Pulsifer",
+    "category": "Philosophy"
+  },
+  {
+    "id": 867,
+    "quote": "Work for something because it is good, not just because it stands a chance to succeed.",
+    "author": "Vaclav Havel",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 868,
+    "quote": "In the end we retain from our studies only that which we practically apply.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 869,
+    "quote": "I have always thought the actions of men the best interpreters of their thoughts.",
+    "author": "John Locke",
+    "category": "Philosophy"
+  },
+  {
+    "id": 870,
+    "quote": "Thought is the blossom; language the bud; action the fruit behind it.",
+    "author": "Ralph Emerson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 871,
+    "quote": "The world makes way for the man who knows where he is going.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 872,
+    "quote": "To dare is to lose ones footing momentarily. To not dare is to lose oneself.",
+    "author": "Soren Kierkegaard",
+    "category": "Philosophy"
+  },
+  {
+    "id": 873,
+    "quote": "Obstacles are those things you see when you take your eyes off the goal.",
+    "author": "Hannah More",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 874,
+    "quote": "One who gains strength by overcoming obstacles possesses the only strength which can overcome adversity.",
+    "author": "Albert Schweitzer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 875,
+    "quote": "Everything has beauty, but not everyone sees it.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 876,
+    "quote": "We can change our lives. We can do, have, and be exactly what we wish.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 877,
+    "quote": "We cannot do everything at once, but we can do something at once.",
+    "author": "Calvin Coolidge",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 878,
+    "quote": "Your mind will answer most questions if you learn to relax and wait for the answer.",
+    "author": "William Burroughs",
+    "category": "Philosophy"
+  },
+  {
+    "id": 879,
+    "quote": "A dream is your creative vision for your life in the future. You must break out of your current comfort zone and become comfortable with the unfamiliar and the unknown.",
+    "author": "Denis Waitley",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 880,
+    "quote": "Be what you are. This is the first step toward becoming better than you are.",
+    "author": "Julius Charles Hare",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 881,
+    "quote": "Silence is a source of great strength.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 882,
+    "quote": "Don't think of it as failure. Think of it as time-released success.",
+    "author": "Robert Orben",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 883,
+    "quote": "Love and compassion open our own inner life, reducing stress, distrust and loneliness.",
+    "author": "Dalai Lama",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 884,
+    "quote": "There is no great genius without some touch of madness.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 885,
+    "quote": "All fixed set patterns are incapable of adaptability or pliability. The truth is outside of all fixed patterns.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 886,
+    "quote": "Ideals are an imaginative understanding of that which is desirable in that which is possible.",
+    "author": "Walter Lippmann",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 887,
+    "quote": "Everything that exists is in a manner the seed of that which will be.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 888,
+    "quote": "Success in business requires training and discipline and hard work. But if you're not frightened by these things, the opportunities are just as great today as they ever were.",
+    "author": "David Rockefeller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 889,
+    "quote": "The way is not in the sky. The way is in the heart.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 890,
+    "quote": "If you do not change direction, you may end up where you are heading.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 891,
+    "quote": "The less effort, the faster and more powerful you will be.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 892,
+    "quote": "More often than not, anger is actually an indication of weakness rather than of strength.",
+    "author": "Dalai Lama",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 893,
+    "quote": "Most powerful is he who has himself in his own power.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 894,
+    "quote": "The dream was always running ahead of me. To catch up, to live for a moment in unison with it, that was the miracle.",
+    "author": "Anais Nin",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 895,
+    "quote": "Before you put on a frown, make absolutely sure there are no smiles available.",
+    "author": "Jim Beggs",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 896,
+    "quote": "From wonder into wonder existence opens.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 897,
+    "quote": "The best thing in every noble dream is the dreamer...",
+    "author": "Moncure Conway",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 898,
+    "quote": "A man of ability and the desire to accomplish something can do anything.",
+    "author": "Donald Kircher",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 899,
+    "quote": "You need chaos in your soul to give birth to a dancing star.",
+    "author": "Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "id": 900,
+    "quote": "Weve got to have a dream if we are going to make a dream come true.",
+    "author": "Walt Disney",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 901,
+    "quote": "It is not uncommon for people to spend their whole life waiting to start living.",
+    "author": "Eckhart Tolle",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 902,
+    "quote": "Imagination is not a talent of some men but is the health of every man.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 903,
+    "quote": "The only real failure in life is not to be true to the best one knows.",
+    "author": "Buddha",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 904,
+    "quote": "Don't be afraid to go out on a limb. That's where the fruit is.",
+    "author": "H. Jackson Browne",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 905,
+    "quote": "I want you to be everything that's you, deep at the center of your being.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 906,
+    "quote": "Learn to listen. Opportunity could be knocking at your door very softly.",
+    "author": "Frank Tyger",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 907,
+    "quote": "Wicked people are always surprised to find ability in those that are good.",
+    "author": "Marquis Vauvenargues",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 908,
+    "quote": "Freedom is what you do with what's been done to you.",
+    "author": "Jean-Paul Sartre",
+    "category": "Philosophy"
+  },
+  {
+    "id": 909,
+    "quote": "All action results from thought, so it is thoughts that matter.",
+    "author": "Sai Baba",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 910,
+    "quote": "Life is so constructed that an event does not, cannot, will not, match the expectation.",
+    "author": "Charlotte Bronte",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 911,
+    "quote": "The truth which has made us free will in the end make us glad also.",
+    "author": "Felix Adler",
+    "category": "Philosophy"
+  },
+  {
+    "id": 912,
+    "quote": "Prejudice is a burden that confuses the past, threatens the future and renders the present inaccessible.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 913,
+    "quote": "If you change the way you look at things, the things you look at change.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 914,
+    "quote": "We are all something, but none of us are everything.",
+    "author": "Blaise Pascal",
+    "category": "Philosophy"
+  },
+  {
+    "id": 915,
+    "quote": "The self is not something ready-made, but something in continuous formation through choice of action.",
+    "author": "John Dewey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 916,
+    "quote": "You will not be punished for your anger, you will be punished by your anger.",
+    "author": "Buddha",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 917,
+    "quote": "He who knows himself is enlightened.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 918,
+    "quote": "To dream of the person you would like to be is to waste the person you are.",
+    "author": "Tim Menchen",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 919,
+    "quote": "They say that time changes things, but you actually have to change them yourself.",
+    "author": "Andy Warhol",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 920,
+    "quote": "The most formidable weapon against errors of every kind is reason.",
+    "author": "Thomas Paine",
+    "category": "Philosophy"
+  },
+  {
+    "id": 921,
+    "quote": "Risk more than others think is safe. Care more than others think is wise. Dream more than others think is practical.Expect more than others think is possible.",
+    "author": "Cadet Maxim",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 922,
+    "quote": "Adversity has the effect of eliciting talents, which in prosperous circumstances would have lain dormant.",
+    "author": "Horace",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 923,
+    "quote": "Most of the shadows of life are caused by standing in our own sunshine.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 924,
+    "quote": "Failure will never overtake me if my determination to succeed is strong enough.",
+    "author": "Og Mandino",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 925,
+    "quote": "If you spend your whole life waiting for the storm, you'll never enjoy the sunshine.",
+    "author": "Morris West",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 926,
+    "quote": "Good actions give strength to ourselves and inspire good actions in others.",
+    "author": "Plato",
+    "category": "Philosophy"
+  },
+  {
+    "id": 927,
+    "quote": "Your attitude, not your aptitude, will determine your altitude.",
+    "author": "Zig Ziglar",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 928,
+    "quote": "Life is a succession of lessons, which must be lived to be understood.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 929,
+    "quote": "I know but one freedom and that is the freedom of the mind.",
+    "author": "Antoine de Saint-Exupery",
+    "category": "Philosophy"
+  },
+  {
+    "id": 930,
+    "quote": "When people are like each other they tend to like each other.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 931,
+    "quote": "Time changes everything except something within us which is always surprised by change.",
+    "author": "Thomas Hardy",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 932,
+    "quote": "The Superior Man is aware of Righteousness, the inferior man is aware of advantage.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 933,
+    "quote": "The more you care, the stronger you can be.",
+    "author": "Jim Rohn",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 934,
+    "quote": "You are important enough to ask and you are blessed enough to receive back.",
+    "author": "Wayne Dyer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 935,
+    "quote": "No man is free who is not master of himself.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 936,
+    "quote": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 937,
+    "quote": "Transformation doesn't take place with a vacuum; instead, it occurs when we are indirectly and directly connected to all those around us.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 938,
+    "quote": "Those that know, do. Those that understand, teach.",
+    "author": "Aristotle",
+    "category": "Philosophy"
+  },
+  {
+    "id": 939,
+    "quote": "If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much.",
+    "author": "Jim Rohn",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 940,
+    "quote": "The free man is he who does not fear to go to the end of his thought.",
+    "author": "Leon Blum",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 941,
+    "quote": "Great acts are made up of small deeds.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 942,
+    "quote": "An idea that is developed and put into action is more important than an idea that exists only as an idea.",
+    "author": "Buddha",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 943,
+    "quote": "Great are they who see that spiritual is stronger than any material force, that thoughts rule the world.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 944,
+    "quote": "Nothing is at last sacred but the integrity of your own mind.",
+    "author": "Ralph Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 945,
+    "quote": "To follow, without halt, one aim: There is the secret of success.",
+    "author": "Anna Pavlova",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 946,
+    "quote": "By going beyond your own problems and taking care of others, you gain inner strength, self-confidence, courage, and a greater sense of calm.",
+    "author": "Dalai Lama",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 947,
+    "quote": "You cannot step twice into the same river, for other waters are continually flowing in.",
+    "author": "Heraclitus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 948,
+    "quote": "The person who makes a success of living is the one who see his goal steadily and aims for it unswervingly. That is dedication.",
+    "author": "Cecil B. DeMille",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 949,
+    "quote": "We come to love not by finding a perfect person, but by learning to see an imperfect person perfectly.",
+    "author": "Sam Keen",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 950,
+    "quote": "It's not what happens to you, but how you react to it that matters.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 951,
+    "quote": "Good thoughts are no better than good dreams, unless they be executed.",
+    "author": "Ralph Emerson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 952,
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Walt Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 953,
+    "quote": "Nothing is softer or more flexible than water, yet nothing can resist it.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 954,
+    "quote": "For success, attitude is equally as important as ability.",
+    "author": "Harry Banks",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 955,
+    "quote": "There are things so deep and complex that only intuition can reach it in our stage of development as human beings.",
+    "author": "John Astin",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 956,
+    "quote": "Fine words and an insinuating appearance are seldom associated with true virtue.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 957,
+    "quote": "Remember that failure is an event, not a person.",
+    "author": "Zig Ziglar",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 958,
+    "quote": "There is no retirement for an artist, it's your way of living so there is no end to it.",
+    "author": "Henry Moore",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 959,
+    "quote": "The beginning of wisdom is found in doubting; by doubting we come to the question, and by seeking we may come upon the truth.",
+    "author": "Pierre Abelard",
+    "category": "Philosophy"
+  },
+  {
+    "id": 960,
+    "quote": "Don't settle for a relationship that won't let you be yourself.",
+    "author": "Oprah Winfrey",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 961,
+    "quote": "It is only with the heart that one can see rightly, what is essential is invisible to the eye.",
+    "author": "Antoine de Saint-Exupery",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 962,
+    "quote": "We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 963,
+    "quote": "If you do what you've always done, you'll get what youve always gotten.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 964,
+    "quote": "Let us be grateful to people who make us happy; they are the charming gardeners who make our souls blossom.",
+    "author": "Marcel Proust",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 965,
+    "quote": "To change ones life, start immediately, do it flamboyantly, no exceptions.",
+    "author": "William James",
+    "category": "Philosophy"
+  },
+  {
+    "id": 966,
+    "quote": "Think like a man of action; act like a man of thought.",
+    "author": "Henri L. Bergson",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 967,
+    "quote": "The thoughts we choose to think are the tools we use to paint the canvas of our lives.",
+    "author": "Louise Hay",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 968,
+    "quote": "When I let go of what I am, I become what I might be.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 969,
+    "quote": "A man's dreams are an index to his greatness.",
+    "author": "Zadok Rabinowitz",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 970,
+    "quote": "Do not waste yourself in rejection, nor bark against the bad, but chant the beauty of the good.",
+    "author": "Ralph Emerson",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 971,
+    "quote": "He who controls others may be powerful, but he who has mastered himself is mightier still.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 972,
+    "quote": "If you lose today, win tomorrow. In this never-ending spirit of challenge is the heart of a victor.",
+    "author": "Daisaku Ikeda",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 973,
+    "quote": "The person born with a talent they are meant to use will find their greatest happiness in using it.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 974,
+    "quote": "The world turns aside to let any man pass who knows where he is going.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 975,
+    "quote": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
+    "author": "Helen Keller",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 976,
+    "quote": "Your destiny isn't just fate; it is how you use your own developed abilities to get what you want.",
+    "author": "Byron Pulsifer",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 977,
+    "quote": "Truth, and goodness, and beauty are but different faces of the same all.",
+    "author": "Ralph Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 978,
+    "quote": "Success is determined by those whom prove the impossible, possible.",
+    "author": "James Pence",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 979,
+    "quote": "A subtle thought that is in error may yet give rise to fruitful inquiry that can establish truths of great value.",
+    "author": "Isaac Asimov",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 980,
+    "quote": "First say to yourself what you would be; and then do what you have to do.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 981,
+    "quote": "I think you can have moderate success by copying something else, but if you really want to knock it out of the park, you have to do something different and take chances.",
+    "author": "Lee Womack",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 982,
+    "quote": "You got to be careful if you don't know where you're going, because you might not get there.",
+    "author": "Yogi Berra",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 983,
+    "quote": "Keep silence for the most part, and speak only when you must, and then briefly.",
+    "author": "Epictetus",
+    "category": "Philosophy"
+  },
+  {
+    "id": 984,
+    "quote": "Nothing could be worse than the fear that one had given up too soon, and left one unexpended effort that might have saved the world.",
+    "author": "Jane Addams",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 985,
+    "quote": "You can tell whether a man is clever by his answers. You can tell whether a man is wise by his questions.",
+    "author": "Naguib Mahfouz",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 986,
+    "quote": "To see things in the seed, that is genius.",
+    "author": "Lao Tzu",
+    "category": "Philosophy"
+  },
+  {
+    "id": 987,
+    "quote": "To hell with circumstances; I create opportunities.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 988,
+    "quote": "You can't let praise or criticism get to you. It's a weakness to get caught up in either one.",
+    "author": "John Wooden",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 989,
+    "quote": "The happiness that is genuinely satisfying is accompanied by the fullest exercise of our faculties and the fullest realization of the world in which we live.",
+    "author": "Bertrand Russell",
+    "category": "Philosophy"
+  },
+  {
+    "id": 990,
+    "quote": "Nothing will work unless you do.",
+    "author": "Maya Angelou",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 991,
+    "quote": "Until you value yourself, you won't value your time. Until you value your time, you won't do anything with it.",
+    "author": "M. Scott Peck",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 992,
+    "quote": "I hear and I forget. I see and I remember. I do and I understand.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 993,
+    "quote": "Our ability to achieve happiness and success depends on the strength of our wings.",
+    "author": "Catherine Pulsifer",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 994,
+    "quote": "The minute you settle for less than you deserve, you get even less than you settled for.",
+    "author": "Maureen Dowd",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 995,
+    "quote": "Were here for a reason. I believe a bit of the reason is to throw little torches out to lead people through the dark.",
+    "author": "Whoopi Goldberg",
+    "category": "Philosophy"
+  },
+  {
+    "id": 996,
+    "quote": "Using the power of decision gives you the capacity to get past any excuse to change any and every part of your life in an instant.",
+    "author": "Tony Robbins",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 997,
+    "quote": "If we have a positive mental attitude, then even when surrounded by hostility, we shall not lack inner peace.",
+    "author": "Dalai Lama",
+    "category": "Wisdom & Life"
+  },
+  {
+    "id": 998,
+    "quote": "Ability will never catch up with the demand for it.",
+    "author": "Confucius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 999,
+    "quote": "Do not pray for an easy life, pray for the strength to endure a difficult one.",
+    "author": "Bruce Lee",
+    "category": "Inspiration & Motivation"
+  },
+  {
+    "id": 1000,
+    "quote": "Appreciation is the highest form of prayer, for it acknowledges the presence of good wherever you shine the light of your thankful thoughts.",
+    "author": "Alan Cohen",
+    "category": "Wisdom & Life"
+  }
+]
