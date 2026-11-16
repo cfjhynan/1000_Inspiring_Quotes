@@ -58,11 +58,15 @@ def get_quotes():
       - q: search query matching quote text or author
       - author: filter by author (case-insensitive substring)
       - category: filter by category (case-insensitive exact)
+      - limit: optional integer limit for pagination
+      - offset: optional integer offset for pagination (default: 0)
     """
     quotes = load_quotes()
     q = request.args.get("q", "").strip().lower()
     author = request.args.get("author", "").strip().lower()
     category = request.args.get("category", "").strip().lower()
+    limit = request.args.get("limit", default=None, type=int)
+    offset = request.args.get("offset", default=0, type=int)
 
     filtered = quotes
 
@@ -78,8 +82,12 @@ def get_quotes():
             if q in item.get("quote", "").lower() or q in item.get("author", "").lower()
         ]
 
+    total = len(filtered)
+    if limit is not None and limit >= 0:
+        filtered = filtered[offset : offset + limit]
+
     return jsonify({
-        "total": len(filtered),
+        "total": total,
         "quotes": filtered
     })
 

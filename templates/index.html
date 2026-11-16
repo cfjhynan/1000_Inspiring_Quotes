@@ -72,11 +72,27 @@
           <button id="clear-search-btn" class="clear-btn" title="Clear search" style="display: none;">✕</button>
         </div>
 
-        <!-- Author Filter Dropdown -->
-        <div class="select-box">
-          <select id="author-select" aria-label="Filter by Author">
-            <option value="">All Authors (All)</option>
-          </select>
+        <!-- Searchable Author Combobox -->
+        <div class="combobox-wrapper" id="author-combobox-wrapper">
+          <div class="combobox-input-box">
+            <span class="combobox-icon">✍️</span>
+            <input 
+              type="text" 
+              id="author-combobox-input" 
+              placeholder="Filter by author... (e.g. Einstein)" 
+              autocomplete="off"
+              role="combobox"
+              aria-expanded="false"
+              aria-autocomplete="list"
+              aria-controls="author-dropdown-list"
+              aria-label="Filter by Author"
+            />
+            <button id="clear-author-btn" class="clear-btn author-clear-btn" title="Clear author" style="display: none;" type="button">✕</button>
+            <button id="toggle-author-dropdown-btn" class="dropdown-chevron-btn" title="Toggle author list" type="button" aria-label="Toggle author list">▾</button>
+          </div>
+          <ul class="combobox-dropdown" id="author-dropdown-list" role="listbox" style="display: none;">
+            <!-- Generated dynamically -->
+          </ul>
         </div>
       </div>
 
@@ -100,6 +116,14 @@
     <section class="quotes-grid-section">
       <div class="quotes-grid" id="quotes-grid">
         <!-- Quote cards inserted dynamically -->
+      </div>
+      <!-- Load More Button -->
+      <div class="load-more-container" id="load-more-container" style="display: none;">
+        <button id="load-more-btn" class="btn btn-primary load-more-btn" title="Load next 12 quotes">
+          <span class="btn-icon">⚡</span>
+          <span id="load-more-label">Load More Quotes</span>
+          <span class="load-more-badge" id="load-more-count">12 more</span>
+        </button>
       </div>
       <div class="empty-state" id="empty-state" style="display: none;">
         <span class="empty-icon">🔎</span>

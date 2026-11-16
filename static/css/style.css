@@ -388,6 +388,146 @@ blockquote.fade-out {
   color: var(--text-main);
 }
 
+/* Searchable Combobox */
+.combobox-wrapper {
+  flex: 1;
+  min-width: 240px;
+  position: relative;
+}
+
+.combobox-input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.combobox-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  pointer-events: none;
+}
+
+.combobox-input-box input {
+  width: 100%;
+  padding: 0.75rem 3.4rem 0.75rem 2.6rem;
+  background-color: var(--surface-alt);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.combobox-input-box input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.author-clear-btn {
+  right: 2.2rem;
+}
+
+.dropdown-chevron-btn {
+  position: absolute;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 0.25rem 0.4rem;
+  border-radius: var(--radius-sm);
+  transition: transform var(--transition-fast), color var(--transition-fast);
+}
+
+.dropdown-chevron-btn:hover {
+  color: var(--text-main);
+}
+
+.combobox-wrapper.is-open .dropdown-chevron-btn {
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.combobox-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: 280px;
+  overflow-y: auto;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  list-style: none;
+  z-index: 100;
+  margin: 0;
+  padding: 0.35rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+}
+
+.combobox-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.combobox-dropdown::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+}
+
+.combobox-item {
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.combobox-item:hover,
+.combobox-item.highlighted {
+  background-color: var(--surface-alt);
+  color: var(--primary);
+}
+
+.combobox-item.selected {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.combobox-item .item-match {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.combobox-all-authors {
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.65rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.combobox-empty {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 .select-box {
   flex: 1;
   min-width: 200px;
@@ -535,6 +675,44 @@ blockquote.fade-out {
 .card-copy-btn:hover {
   color: var(--primary);
   transform: scale(1.15);
+}
+
+/* Load More */
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 0.5rem;
+}
+
+.load-more-btn {
+  padding: 0.85rem 2rem;
+  font-size: 0.95rem;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.load-more-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow), var(--shadow-lg);
+}
+
+.load-more-badge {
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+[data-theme="light"] .load-more-badge {
+  background: rgba(255, 255, 255, 0.28);
 }
 
 /* Empty State */

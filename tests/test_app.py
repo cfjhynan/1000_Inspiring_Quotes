@@ -128,3 +128,16 @@ class TestAPIEndpoints:
         assert data["total_quotes"] == 1000
         assert data["total_categories"] > 0
         assert data["total_authors"] > 0
+
+    def test_quotes_pagination(self, client):
+        res = client.get("/api/quotes?limit=12&offset=0")
+        assert res.status_code == 200
+        data = res.get_json()
+        assert data["total"] == 1000
+        assert len(data["quotes"]) == 12
+
+        res_next = client.get("/api/quotes?limit=12&offset=12")
+        assert res_next.status_code == 200
+        data_next = res_next.get_json()
+        assert len(data_next["quotes"]) == 12
+        assert data["quotes"][0]["id"] != data_next["quotes"][0]["id"]

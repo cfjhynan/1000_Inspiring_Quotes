@@ -14,9 +14,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const searchInput = document.getElementById('search-input');
   const clearSearchBtn = document.getElementById('clear-search-btn');
-  const authorSelect = document.getElementById('author-select');
+  const authorComboboxWrapper = document.getElementById('author-combobox-wrapper');
+  const authorComboboxInput = document.getElementById('author-combobox-input');
+  const authorDropdownList = document.getElementById('author-dropdown-list');
+  const clearAuthorBtn = document.getElementById('clear-author-btn');
+  const toggleAuthorDropdownBtn = document.getElementById('toggle-author-dropdown-btn');
   const categoryChips = document.getElementById('category-chips');
   const quotesGrid = document.getElementById('quotes-grid');
+  const loadMoreContainer = document.getElementById('load-more-container');
+  const loadMoreBtn = document.getElementById('load-more-btn');
+  const loadMoreCount = document.getElementById('load-more-count');
   const emptyState = document.getElementById('empty-state');
   const emptyResetBtn = document.getElementById('empty-reset-btn');
   const resultsCount = document.getElementById('results-count');
@@ -25,13 +32,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const toast = document.getElementById('toast');
 
-  // --- State ---
+  // --- State & Pagination ---
+  const PAGE_SIZE = 12;
+  let allAuthors = [];
+  let highlightedAuthorIndex = -1;
+  let isAuthorDropdownOpen = false;
   let activeCategory = '';
   let activeAuthor = '';
   let searchQuery = '';
   let currentQuote = null;
   let searchDebounceTimer = null;
-  let allQuotesCache = [];
+  let currentQuotesList = [];
+  let displayedCount = 0;
 
   // --- Theme Management ---
   function initTheme() {
@@ -158,17 +170,194 @@ document.addEventListener('DOMContentLoaded', () => {
       const authRes = await fetch('/api/authors');
       if (authRes.ok) {
         const data = await authRes.json();
-        data.authors.forEach(author => {
-          const option = document.createElement('option');
-          option.value = author;
-          option.textContent = author;
-          authorSelect.appendChild(option);
-        });
+        allAuthors = data.authors || [];
       }
     } catch (err) {
       console.error('Error loading metadata:', err);
     }
   }
+
+  // --- Author Searchable Combobox ---
+  function openAuthorDropdown() {
+    isAuthorDropdownOpen = true;
+    authorComboboxWrapper.classList.add('is-open');
+    authorComboboxInput.setAttribute('aria-expanded', 'true');
+    authorDropdownList.style.display = 'block';
+    renderAuthorDropdown(authorComboboxInput.value.trim());
+  }
+
+  function closeAuthorDropdown() {
+    isAuthorDropdownOpen = false;
+    authorComboboxWrapper.classList.remove('is-open');
+    authorComboboxInput.setAttribute('aria-expanded', 'false');
+    authorDropdownList.style.display = 'none';
+    highlightedAuthorIndex = -1;
+  }
+
+  function selectAuthor(author) {
+    activeAuthor = author;
+    authorComboboxInput.value = author;
+    clearAuthorBtn.style.display = author ? 'block' : 'none';
+    closeAuthorDropdown();
+    applyFilters();
+  }
+
+  function renderAuthorDropdown(filterText = '') {
+    authorDropdownList.innerHTML = '';
+    highlightedAuthorIndex = -1;
+
+    const lowerQuery = filterText.toLowerCase();
+    const matching = lowerQuery
+      ? allAuthors.filter(a => a.toLowerCase().includes(lowerQuery))
+      : allAuthors;
+
+    // "All Authors" option at top
+    const allItem = document.createElement('li');
+    allItem.className = 'combobox-item combobox-all-authors';
+    allItem.setAttribute('role', 'option');
+    allItem.innerHTML = `<span>✨ All Authors (Show All)</span>`;
+    if (!activeAuthor) {
+      allItem.classList.add('selected');
+    }
+    allItem.addEventListener('click', () => {
+      selectAuthor('');
+    });
+    authorDropdownList.appendChild(allItem);
+
+    if (matching.length === 0) {
+      const emptyItem = document.createElement('li');
+      emptyItem.className = 'combobox-empty';
+      emptyItem.textContent = `No authors matching "${filterText}"`;
+      authorDropdownList.appendChild(emptyItem);
+      return;
+    }
+
+    matching.forEach((author) => {
+      const item = document.createElement('li');
+      item.className = 'combobox-item';
+      item.setAttribute('role', 'option');
+      if (activeAuthor === author) {
+        item.classList.add('selected');
+      }
+
+      if (lowerQuery) {
+        const startIdx = author.toLowerCase().indexOf(lowerQuery);
+        if (startIdx !== -1) {
+          const endIdx = startIdx + lowerQuery.length;
+          item.innerHTML = `
+            <span>
+              ${escapeHtml(author.slice(0, startIdx))}<span class="item-match">${escapeHtml(author.slice(startIdx, endIdx))}</span>${escapeHtml(author.slice(endIdx))}
+            </span>
+          `;
+        } else {
+          item.textContent = author;
+        }
+      } else {
+        item.textContent = author;
+      }
+
+      item.addEventListener('click', () => {
+        selectAuthor(author);
+      });
+
+      authorDropdownList.appendChild(item);
+    });
+  }
+
+  function highlightItem(index) {
+    const items = authorDropdownList.querySelectorAll('.combobox-item');
+    if (!items.length) return;
+
+    items.forEach(el => el.classList.remove('highlighted'));
+
+    if (index >= 0 && index < items.length) {
+      highlightedAuthorIndex = index;
+      const target = items[index];
+      target.classList.add('highlighted');
+      target.scrollIntoView({ block: 'nearest' });
+    }
+  }
+
+  // Combobox Listeners
+  authorComboboxInput.addEventListener('focus', () => {
+    openAuthorDropdown();
+  });
+
+  authorComboboxInput.addEventListener('click', () => {
+    if (!isAuthorDropdownOpen) {
+      openAuthorDropdown();
+    }
+  });
+
+  authorComboboxInput.addEventListener('input', (e) => {
+    const val = e.target.value.trim();
+    clearAuthorBtn.style.display = val ? 'block' : 'none';
+    if (!isAuthorDropdownOpen) {
+      openAuthorDropdown();
+    } else {
+      renderAuthorDropdown(val);
+    }
+  });
+
+  authorComboboxInput.addEventListener('keydown', (e) => {
+    const items = authorDropdownList.querySelectorAll('.combobox-item');
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (!isAuthorDropdownOpen) {
+        openAuthorDropdown();
+      } else {
+        const nextIdx = highlightedAuthorIndex < items.length - 1 ? highlightedAuthorIndex + 1 : 0;
+        highlightItem(nextIdx);
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (isAuthorDropdownOpen) {
+        const prevIdx = highlightedAuthorIndex > 0 ? highlightedAuthorIndex - 1 : items.length - 1;
+        highlightItem(prevIdx);
+      }
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (isAuthorDropdownOpen) {
+        if (highlightedAuthorIndex >= 0 && items[highlightedAuthorIndex]) {
+          items[highlightedAuthorIndex].click();
+        } else if (items.length > 0) {
+          items[0].click();
+        }
+      } else {
+        openAuthorDropdown();
+      }
+    } else if (e.key === 'Escape') {
+      closeAuthorDropdown();
+    }
+  });
+
+  toggleAuthorDropdownBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (isAuthorDropdownOpen) {
+      closeAuthorDropdown();
+    } else {
+      authorComboboxInput.focus();
+      openAuthorDropdown();
+    }
+  });
+
+  clearAuthorBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    selectAuthor('');
+    authorComboboxInput.focus();
+    openAuthorDropdown();
+  });
+
+  document.addEventListener('click', (e) => {
+    if (authorComboboxWrapper && !authorComboboxWrapper.contains(e.target)) {
+      if (isAuthorDropdownOpen) {
+        closeAuthorDropdown();
+        authorComboboxInput.value = activeAuthor || '';
+        clearAuthorBtn.style.display = activeAuthor ? 'block' : 'none';
+      }
+    }
+  });
 
   // --- Category Selection ---
   function onCategorySelect(category, element) {
@@ -190,12 +379,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Attach listener to "All" chip
   categoryChips.querySelector('[data-category=""]').addEventListener('click', function() {
     onCategorySelect('', this);
-  });
-
-  // --- Author Selection ---
-  authorSelect.addEventListener('change', (e) => {
-    activeAuthor = e.target.value;
-    applyFilters();
   });
 
   // --- Search Input with Debounce ---
@@ -224,7 +407,9 @@ document.addEventListener('DOMContentLoaded', () => {
     searchQuery = '';
     searchInput.value = '';
     clearSearchBtn.style.display = 'none';
-    authorSelect.value = '';
+    authorComboboxInput.value = '';
+    clearAuthorBtn.style.display = 'none';
+    closeAuthorDropdown();
 
     const allChips = categoryChips.querySelectorAll('.chip');
     allChips.forEach(c => c.classList.remove('active'));
@@ -235,6 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   resetFiltersBtn.addEventListener('click', resetAllFilters);
   emptyResetBtn.addEventListener('click', resetAllFilters);
+  loadMoreBtn.addEventListener('click', renderNextBatch);
 
   // --- Apply Filters & Fetch Quotes ---
   async function applyFilters() {
@@ -251,68 +437,105 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const res = await fetch(url);
       const data = await res.json();
-      renderQuotesGrid(data.quotes);
-      
-      const count = data.total;
-      resultsCount.textContent = hasFilter
-        ? `Found ${count} matching quote${count === 1 ? '' : 's'}`
-        : `Showing all ${count} quotes`;
+      currentQuotesList = data.quotes || [];
+      displayedCount = 0;
+      quotesGrid.innerHTML = '';
+
+      if (currentQuotesList.length === 0) {
+        emptyState.style.display = 'flex';
+        quotesGrid.style.display = 'none';
+        loadMoreContainer.style.display = 'none';
+        resultsCount.textContent = 'No matching quotes found';
+        return;
+      }
+
+      emptyState.style.display = 'none';
+      quotesGrid.style.display = 'grid';
+
+      renderNextBatch();
     } catch (err) {
       console.error('Filter query error:', err);
     }
   }
 
-  // --- Render Quotes Grid ---
-  function renderQuotesGrid(quotes) {
-    quotesGrid.innerHTML = '';
+  // --- Render Next Batch (Pagination) ---
+  function renderNextBatch() {
+    const total = currentQuotesList.length;
+    const nextLimit = Math.min(displayedCount + PAGE_SIZE, total);
+    const batch = currentQuotesList.slice(displayedCount, nextLimit);
 
-    if (!quotes || quotes.length === 0) {
-      emptyState.style.display = 'flex';
-      quotesGrid.style.display = 'none';
-      return;
-    }
-
-    emptyState.style.display = 'none';
-    quotesGrid.style.display = 'grid';
-
-    quotes.forEach(item => {
-      const card = document.createElement('article');
-      card.className = 'quote-card grid-card';
-
-      const header = document.createElement('div');
-      header.className = 'card-header';
-      header.innerHTML = `
-        <span class="category-pill">${escapeHtml(item.category)}</span>
-        <span class="quote-id">#${item.id}</span>
-      `;
-
-      const blockquote = document.createElement('blockquote');
-      blockquote.textContent = `“${item.quote}”`;
-
-      const footer = document.createElement('div');
-      footer.className = 'card-footer';
-      
-      const author = document.createElement('cite');
-      author.className = 'author-name';
-      author.textContent = `— ${item.author}`;
-
-      const cardCopyBtn = document.createElement('button');
-      cardCopyBtn.className = 'card-copy-btn';
-      cardCopyBtn.title = 'Copy quote';
-      cardCopyBtn.innerHTML = '📋';
-      cardCopyBtn.addEventListener('click', () => {
-        copyToClipboard(`“${item.quote}”\n— ${item.author}`);
-      });
-
-      footer.appendChild(author);
-      footer.appendChild(cardCopyBtn);
-
-      card.appendChild(header);
-      card.appendChild(blockquote);
-      card.appendChild(footer);
-
+    batch.forEach(item => {
+      const card = createQuoteCard(item);
       quotesGrid.appendChild(card);
     });
+
+    displayedCount = nextLimit;
+    updateResultsAndLoadMore();
+  }
+
+  // --- Update Results Count & Load More Button ---
+  function updateResultsAndLoadMore() {
+    const total = currentQuotesList.length;
+    const remaining = total - displayedCount;
+    const hasFilter = activeCategory || activeAuthor || searchQuery;
+
+    if (displayedCount < total) {
+      resultsCount.textContent = hasFilter
+        ? `Showing ${displayedCount} of ${total} matching quotes`
+        : `Showing ${displayedCount} of ${total} quotes`;
+    } else {
+      resultsCount.textContent = hasFilter
+        ? `Showing all ${total} matching quote${total === 1 ? '' : 's'}`
+        : `Showing all ${total} quotes`;
+    }
+
+    if (remaining > 0) {
+      loadMoreContainer.style.display = 'flex';
+      const nextBatchSize = Math.min(PAGE_SIZE, remaining);
+      loadMoreCount.textContent = `${nextBatchSize} more`;
+    } else {
+      loadMoreContainer.style.display = 'none';
+    }
+  }
+
+  // --- Build Quote Card Element ---
+  function createQuoteCard(item) {
+    const card = document.createElement('article');
+    card.className = 'quote-card grid-card';
+
+    const header = document.createElement('div');
+    header.className = 'card-header';
+    header.innerHTML = `
+      <span class="category-pill">${escapeHtml(item.category)}</span>
+      <span class="quote-id">#${item.id}</span>
+    `;
+
+    const blockquote = document.createElement('blockquote');
+    blockquote.textContent = `“${item.quote}”`;
+
+    const footer = document.createElement('div');
+    footer.className = 'card-footer';
+    
+    const author = document.createElement('cite');
+    author.className = 'author-name';
+    author.textContent = `— ${item.author}`;
+
+    const cardCopyBtn = document.createElement('button');
+    cardCopyBtn.className = 'card-copy-btn';
+    cardCopyBtn.title = 'Copy quote';
+    cardCopyBtn.innerHTML = '📋';
+    cardCopyBtn.addEventListener('click', () => {
+      copyToClipboard(`“${item.quote}”\n— ${item.author}`);
+    });
+
+    footer.appendChild(author);
+    footer.appendChild(cardCopyBtn);
+
+    card.appendChild(header);
+    card.appendChild(blockquote);
+    card.appendChild(footer);
+
+    return card;
   }
 
   function escapeHtml(text) {
