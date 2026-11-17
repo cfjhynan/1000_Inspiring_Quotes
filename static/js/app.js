@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const emptyResetBtn = document.getElementById('empty-reset-btn');
   const resultsCount = document.getElementById('results-count');
   const resetFiltersBtn = document.getElementById('reset-filters-btn');
-  const statsBadge = document.getElementById('stats-badge');
   const themeToggle = document.getElementById('theme-toggle');
   const toast = document.getElementById('toast');
   const backToTopBtn = document.getElementById('back-to-top-btn');
@@ -265,17 +264,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   newQuoteBtn.addEventListener('click', fetchRandomQuote);
 
-  // --- Fetch Metadata (Categories & Authors & Stats) ---
+  // --- Fetch Metadata (Categories & Authors) ---
   async function loadMetadata() {
     try {
-      // 1. Stats
-      const statsRes = await fetch('/api/stats');
-      if (statsRes.ok) {
-        const stats = await statsRes.json();
-        statsBadge.textContent = `${stats.total_quotes} Quotes`;
-      }
-
-      // 2. Categories
+      // 1. Categories
       const catRes = await fetch('/api/categories');
       if (catRes.ok) {
         const data = await catRes.json();
@@ -289,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       }
 
-      // 3. Authors
+      // 2. Authors
       const authRes = await fetch('/api/authors');
       if (authRes.ok) {
         const data = await authRes.json();
