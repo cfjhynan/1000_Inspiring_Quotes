@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const statsBadge = document.getElementById('stats-badge');
   const themeToggle = document.getElementById('theme-toggle');
   const toast = document.getElementById('toast');
+  const backToTopBtn = document.getElementById('back-to-top-btn');
 
   // --- State & Pagination ---
   const PAGE_SIZE = 12;
@@ -496,6 +497,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       loadMoreContainer.style.display = 'none';
     }
+
+    checkScrollBottom();
   }
 
   // --- Build Quote Card Element ---
@@ -567,6 +570,36 @@ document.addEventListener('DOMContentLoaded', () => {
       searchInput.blur();
     }
   });
+
+  // --- Scroll to Top FAB ---
+  function checkScrollBottom() {
+    if (!backToTopBtn) return;
+    const scrollHeight = document.documentElement.scrollHeight;
+    const clientHeight = window.innerHeight;
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+    // Show FAB when user has scrolled down to the very bottom of the page (within 80px buffer for sub-pixel / footer)
+    const isScrollable = scrollHeight > clientHeight + 60;
+    const isAtBottom = (scrollTop + clientHeight) >= (scrollHeight - 80);
+
+    if (isScrollable && isAtBottom) {
+      backToTopBtn.classList.add('show');
+    } else {
+      backToTopBtn.classList.remove('show');
+    }
+  }
+
+  window.addEventListener('scroll', checkScrollBottom, { passive: true });
+  window.addEventListener('resize', checkScrollBottom);
+
+  if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
 
   // --- Initialization ---
   initTheme();

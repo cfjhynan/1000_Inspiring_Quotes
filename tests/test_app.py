@@ -52,6 +52,8 @@ class TestAPIEndpoints:
         assert res.status_code == 200
         assert b"QuoteVerse" in res.data
         assert b"1000 Timeless" in res.data
+        assert b"back-to-top-btn" in res.data
+        assert b"load-more-btn" in res.data
 
     def test_random_quote_unfiltered(self, client):
         res = client.get("/api/quotes/random")
