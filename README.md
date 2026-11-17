@@ -9,8 +9,11 @@ An interactive full-stack web application built with **Python Flask**, **Vanilla
 - **1000 Curated Quotes**: Sourced across Philosophy, Science & Technology, Leadership, Inspiration, Wisdom, and Artificial Intelligence.
 - **Random Quote Generator**: Smooth transition hero card with one-click random generation (or press <kbd>Spacebar</kbd>).
 - **Search & Filter**: Real-time debounced search by quote text or author name (press <kbd>/</kbd> to quickly search).
+- **Searchable Author Combobox**: Fast autocomplete input with keyboard navigation (<kbd>↑</kbd>/<kbd>↓</kbd>/<kbd>Enter</kbd>) across 120+ authors.
 - **Category Chips**: Fast filtering by category (All, Philosophy, Science, AI, etc.).
-- **Author Dropdown**: Filter quotes by specific author.
+- **Favorites & Bookmarks**: Save favorite quotes locally (`localStorage`) with one click (🤍/❤️) and view them via a dedicated "Favorites" chip filter.
+- **Pagination & "Load More"**: Batch loading (12 cards at a time) for optimal DOM performance and smooth browsing.
+- **Back to Top FAB**: Floating action button that appears when scrolled to the bottom for instant return to top.
 - **Clipboard Copy**: One-click formatted quote copying to clipboard.
 - **Light & Dark Mode**: Persistent theme toggle matching modern design aesthetics.
 - **REST API**: Clean endpoints for integration or programmatic access.

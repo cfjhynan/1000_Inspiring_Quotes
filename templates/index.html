@@ -43,6 +43,10 @@
         <div class="card-footer">
           <cite id="featured-author" class="author-name">— Author</cite>
           <div class="card-actions">
+            <button id="featured-fav-btn" class="btn btn-secondary fav-toggle-btn" title="Add to favorites" aria-label="Toggle favorite">
+              <span class="btn-icon fav-icon" id="featured-fav-icon">🤍</span>
+              <span id="featured-fav-text">Favorite</span>
+            </button>
             <button id="copy-btn" class="btn btn-secondary" title="Copy quote to clipboard">
               <span class="btn-icon">📋</span>
               <span id="copy-text">Copy</span>
@@ -101,6 +105,9 @@
         <label class="chips-label">Categories:</label>
         <div class="category-chips" id="category-chips">
           <button class="chip active" data-category="">All</button>
+          <button class="chip fav-chip" id="favorites-chip" data-category="__favorites__" title="Show saved favorite quotes">
+            <span class="fav-chip-icon">❤️</span> Favorites <span class="chip-count" id="favorites-count-badge">0</span>
+          </button>
           <!-- Category buttons populated dynamically -->
         </div>
       </div>

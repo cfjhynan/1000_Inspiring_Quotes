@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const featuredAuthor = document.getElementById('featured-author');
   const featuredCategory = document.getElementById('featured-category');
   const featuredId = document.getElementById('featured-id');
+  const featuredFavBtn = document.getElementById('featured-fav-btn');
+  const featuredFavIcon = document.getElementById('featured-fav-icon');
+  const featuredFavText = document.getElementById('featured-fav-text');
   const newQuoteBtn = document.getElementById('new-quote-btn');
   const copyBtn = document.getElementById('copy-btn');
   const copyText = document.getElementById('copy-text');
@@ -20,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearAuthorBtn = document.getElementById('clear-author-btn');
   const toggleAuthorDropdownBtn = document.getElementById('toggle-author-dropdown-btn');
   const categoryChips = document.getElementById('category-chips');
+  const favoritesChip = document.getElementById('favorites-chip');
+  const favoritesCountBadge = document.getElementById('favorites-count-badge');
   const quotesGrid = document.getElementById('quotes-grid');
   const loadMoreContainer = document.getElementById('load-more-container');
   const loadMoreBtn = document.getElementById('load-more-btn');
@@ -32,6 +37,104 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const toast = document.getElementById('toast');
   const backToTopBtn = document.getElementById('back-to-top-btn');
+
+  // --- Favorites (localStorage) ---
+  const FAVORITES_STORAGE_KEY = 'quoteverse-favorites';
+
+  function loadFavorites() {
+    try {
+      const stored = localStorage.getItem(FAVORITES_STORAGE_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) {
+          return new Set(parsed.map(Number));
+        }
+      }
+    } catch (err) {
+      console.error('Error loading favorites from localStorage:', err);
+    }
+    return new Set();
+  }
+
+  function saveFavorites(favSet) {
+    try {
+      localStorage.setItem(FAVORITES_STORAGE_KEY, JSON.stringify(Array.from(favSet)));
+    } catch (err) {
+      console.error('Error saving favorites to localStorage:', err);
+    }
+  }
+
+  const favorites = loadFavorites();
+
+  function isFavorite(id) {
+    return favorites.has(Number(id));
+  }
+
+  function updateFavoritesCountBadge() {
+    if (favoritesCountBadge) {
+      favoritesCountBadge.textContent = favorites.size;
+    }
+  }
+
+  function updateFeaturedFavButton() {
+    if (!featuredFavBtn || !currentQuote) return;
+    const isFav = isFavorite(currentQuote.id);
+    if (featuredFavIcon) featuredFavIcon.textContent = isFav ? '❤️' : '🤍';
+    if (featuredFavText) featuredFavText.textContent = isFav ? 'Favorited' : 'Favorite';
+    featuredFavBtn.setAttribute('title', isFav ? 'Remove from favorites' : 'Add to favorites');
+    featuredFavBtn.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
+    if (isFav) {
+      featuredFavBtn.classList.add('active');
+    } else {
+      featuredFavBtn.classList.remove('active');
+    }
+  }
+
+  function updateAllFavButtons(id) {
+    const numId = Number(id);
+    if (currentQuote && Number(currentQuote.id) === numId) {
+      updateFeaturedFavButton();
+    }
+    const cardFavBtns = quotesGrid.querySelectorAll(`.card-fav-btn[data-quote-id="${numId}"]`);
+    const isFav = isFavorite(numId);
+    cardFavBtns.forEach(btn => {
+      btn.innerHTML = isFav ? '❤️' : '🤍';
+      btn.title = isFav ? 'Remove from favorites' : 'Add to favorites';
+      btn.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
+      if (isFav) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+
+  function toggleFavorite(id) {
+    const numId = Number(id);
+    if (favorites.has(numId)) {
+      favorites.delete(numId);
+      showToast('Removed from favorites');
+    } else {
+      favorites.add(numId);
+      showToast('Added to favorites! ❤️');
+    }
+    saveFavorites(favorites);
+    updateFavoritesCountBadge();
+    updateAllFavButtons(numId);
+
+    // If currently viewing favorites filter, re-apply filter to update cards and count
+    if (activeCategory === '__favorites__') {
+      applyFilters();
+    }
+  }
+
+  if (featuredFavBtn) {
+    featuredFavBtn.addEventListener('click', () => {
+      if (currentQuote) {
+        toggleFavorite(currentQuote.id);
+      }
+    });
+  }
 
   // --- State & Pagination ---
   const PAGE_SIZE = 12;
@@ -80,9 +183,27 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       featuredQuote.classList.add('fade-out');
 
+      // If viewing favorites, pick from favorite quotes if available
+      if (activeCategory === '__favorites__') {
+        const favQuotes = currentQuotesList.filter(item => isFavorite(item.id));
+        if (favQuotes.length > 0) {
+          const pick = favQuotes[Math.floor(Math.random() * favQuotes.length)];
+          currentQuote = pick;
+          setTimeout(() => {
+            featuredQuote.textContent = pick.quote;
+            featuredAuthor.textContent = `— ${pick.author}`;
+            featuredCategory.textContent = pick.category;
+            featuredId.textContent = `#${pick.id}`;
+            featuredQuote.classList.remove('fade-out');
+            updateFeaturedFavButton();
+          }, 150);
+          return;
+        }
+      }
+
       let url = '/api/quotes/random';
       const params = new URLSearchParams();
-      if (activeCategory) params.append('category', activeCategory);
+      if (activeCategory && activeCategory !== '__favorites__') params.append('category', activeCategory);
       if (activeAuthor) params.append('author', activeAuthor);
 
       const queryString = params.toString();
@@ -101,6 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
         featuredCategory.textContent = data.category;
         featuredId.textContent = `#${data.id}`;
         featuredQuote.classList.remove('fade-out');
+        updateFeaturedFavButton();
       }, 150);
     } catch (err) {
       console.error(err);
@@ -382,6 +504,13 @@ document.addEventListener('DOMContentLoaded', () => {
     onCategorySelect('', this);
   });
 
+  // Attach listener to "Favorites" chip
+  if (favoritesChip) {
+    favoritesChip.addEventListener('click', function() {
+      onCategorySelect('__favorites__', this);
+    });
+  }
+
   // --- Search Input with Debounce ---
   searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value.trim();
@@ -416,6 +545,11 @@ document.addEventListener('DOMContentLoaded', () => {
     allChips.forEach(c => c.classList.remove('active'));
     categoryChips.querySelector('[data-category=""]').classList.add('active');
 
+    // Reset empty state text
+    emptyState.querySelector('h3').textContent = 'No matching quotes found';
+    emptyState.querySelector('p').textContent = 'Try searching for a different keyword or resetting your filters.';
+    emptyResetBtn.textContent = 'Clear Filters';
+
     applyFilters();
   }
 
@@ -425,11 +559,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Apply Filters & Fetch Quotes ---
   async function applyFilters() {
+    const isFavView = activeCategory === '__favorites__';
     const hasFilter = activeCategory || activeAuthor || searchQuery;
     resetFiltersBtn.style.display = hasFilter ? 'inline-block' : 'none';
 
     const params = new URLSearchParams();
-    if (activeCategory) params.append('category', activeCategory);
+    if (activeCategory && !isFavView) params.append('category', activeCategory);
     if (activeAuthor) params.append('author', activeAuthor);
     if (searchQuery) params.append('q', searchQuery);
 
@@ -438,7 +573,13 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const res = await fetch(url);
       const data = await res.json();
-      currentQuotesList = data.quotes || [];
+      let quotes = data.quotes || [];
+
+      if (isFavView) {
+        quotes = quotes.filter(item => isFavorite(item.id));
+      }
+
+      currentQuotesList = quotes;
       displayedCount = 0;
       quotesGrid.innerHTML = '';
 
@@ -446,7 +587,25 @@ document.addEventListener('DOMContentLoaded', () => {
         emptyState.style.display = 'flex';
         quotesGrid.style.display = 'none';
         loadMoreContainer.style.display = 'none';
-        resultsCount.textContent = 'No matching quotes found';
+
+        if (isFavView) {
+          if (favorites.size === 0) {
+            emptyState.querySelector('h3').textContent = 'No favorite quotes yet';
+            emptyState.querySelector('p').textContent = 'Click the heart icon (🤍) on any quote card to bookmark your favorite quotes!';
+            emptyResetBtn.textContent = 'Explore All Quotes';
+            resultsCount.textContent = 'No favorites saved';
+          } else {
+            emptyState.querySelector('h3').textContent = 'No matching favorites found';
+            emptyState.querySelector('p').textContent = 'Try adjusting your search query or author filter.';
+            emptyResetBtn.textContent = 'Clear Filters';
+            resultsCount.textContent = '0 matching favorites';
+          }
+        } else {
+          emptyState.querySelector('h3').textContent = 'No matching quotes found';
+          emptyState.querySelector('p').textContent = 'Try searching for a different keyword or resetting your filters.';
+          emptyResetBtn.textContent = 'Clear Filters';
+          resultsCount.textContent = 'No matching quotes found';
+        }
         return;
       }
 
@@ -478,16 +637,25 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateResultsAndLoadMore() {
     const total = currentQuotesList.length;
     const remaining = total - displayedCount;
+    const isFavView = activeCategory === '__favorites__';
     const hasFilter = activeCategory || activeAuthor || searchQuery;
 
-    if (displayedCount < total) {
-      resultsCount.textContent = hasFilter
-        ? `Showing ${displayedCount} of ${total} matching quotes`
-        : `Showing ${displayedCount} of ${total} quotes`;
+    if (isFavView) {
+      if (displayedCount < total) {
+        resultsCount.textContent = `Showing ${displayedCount} of ${total} favorite quote${total === 1 ? '' : 's'}`;
+      } else {
+        resultsCount.textContent = `Showing all ${total} favorite quote${total === 1 ? '' : 's'}`;
+      }
     } else {
-      resultsCount.textContent = hasFilter
-        ? `Showing all ${total} matching quote${total === 1 ? '' : 's'}`
-        : `Showing all ${total} quotes`;
+      if (displayedCount < total) {
+        resultsCount.textContent = hasFilter
+          ? `Showing ${displayedCount} of ${total} matching quotes`
+          : `Showing ${displayedCount} of ${total} quotes`;
+      } else {
+        resultsCount.textContent = hasFilter
+          ? `Showing all ${total} matching quote${total === 1 ? '' : 's'}`
+          : `Showing all ${total} quotes`;
+      }
     }
 
     if (remaining > 0) {
@@ -523,16 +691,36 @@ document.addEventListener('DOMContentLoaded', () => {
     author.className = 'author-name';
     author.textContent = `— ${item.author}`;
 
+    const cardActions = document.createElement('div');
+    cardActions.className = 'grid-card-actions';
+
+    const cardFavBtn = document.createElement('button');
+    cardFavBtn.className = 'card-icon-btn card-fav-btn';
+    cardFavBtn.dataset.quoteId = item.id;
+    const isFav = isFavorite(item.id);
+    if (isFav) cardFavBtn.classList.add('active');
+    cardFavBtn.title = isFav ? 'Remove from favorites' : 'Add to favorites';
+    cardFavBtn.setAttribute('aria-label', isFav ? 'Remove from favorites' : 'Add to favorites');
+    cardFavBtn.innerHTML = isFav ? '❤️' : '🤍';
+    cardFavBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleFavorite(item.id);
+    });
+
     const cardCopyBtn = document.createElement('button');
-    cardCopyBtn.className = 'card-copy-btn';
+    cardCopyBtn.className = 'card-icon-btn card-copy-btn';
     cardCopyBtn.title = 'Copy quote';
+    cardCopyBtn.setAttribute('aria-label', 'Copy quote');
     cardCopyBtn.innerHTML = '📋';
     cardCopyBtn.addEventListener('click', () => {
       copyToClipboard(`“${item.quote}”\n— ${item.author}`);
     });
 
+    cardActions.appendChild(cardFavBtn);
+    cardActions.appendChild(cardCopyBtn);
+
     footer.appendChild(author);
-    footer.appendChild(cardCopyBtn);
+    footer.appendChild(cardActions);
 
     card.appendChild(header);
     card.appendChild(blockquote);
@@ -603,6 +791,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Initialization ---
   initTheme();
+  updateFavoritesCountBadge();
   loadMetadata();
   fetchRandomQuote();
   applyFilters();
