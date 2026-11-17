@@ -36,6 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const toast = document.getElementById('toast');
   const backToTopBtn = document.getElementById('back-to-top-btn');
+  const shortcutsHelpBtn = document.getElementById('shortcuts-help-btn');
+  const shortcutsModal = document.getElementById('shortcuts-modal');
+  const closeModalBtn = document.getElementById('close-modal-btn');
 
   // --- Favorites (localStorage) ---
   const FAVORITES_STORAGE_KEY = 'quoteverse-favorites';
@@ -727,15 +730,87 @@ document.addEventListener('DOMContentLoaded', () => {
     return div.innerHTML;
   }
 
+  // --- Keyboard Shortcuts Modal ---
+  function openShortcutsModal() {
+    if (!shortcutsModal) return;
+    shortcutsModal.style.display = 'flex';
+    void shortcutsModal.offsetWidth; // Force reflow for CSS transition
+    shortcutsModal.classList.add('show');
+    if (closeModalBtn) closeModalBtn.focus();
+  }
+
+  function closeShortcutsModal() {
+    if (!shortcutsModal) return;
+    shortcutsModal.classList.remove('show');
+    setTimeout(() => {
+      if (!shortcutsModal.classList.contains('show')) {
+        shortcutsModal.style.display = 'none';
+      }
+    }, 250);
+    if (shortcutsHelpBtn) shortcutsHelpBtn.focus();
+  }
+
+  function isShortcutsModalOpen() {
+    return shortcutsModal && shortcutsModal.classList.contains('show');
+  }
+
+  if (shortcutsHelpBtn) {
+    shortcutsHelpBtn.addEventListener('click', openShortcutsModal);
+  }
+
+  if (closeModalBtn) {
+    closeModalBtn.addEventListener('click', closeShortcutsModal);
+  }
+
+  if (shortcutsModal) {
+    shortcutsModal.addEventListener('click', (e) => {
+      if (e.target === shortcutsModal) {
+        closeShortcutsModal();
+      }
+    });
+  }
+
   // --- Keyboard Shortcuts ---
   document.addEventListener('keydown', (e) => {
     const activeEl = document.activeElement;
-    const isInputActive = activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'SELECT');
+    const isInputActive = activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'SELECT' || activeEl.tagName === 'TEXTAREA');
+
+    // Escape closes modal first, then dropdown, then blurs search
+    if (e.key === 'Escape') {
+      if (isShortcutsModalOpen()) {
+        e.preventDefault();
+        closeShortcutsModal();
+        return;
+      }
+      if (isAuthorDropdownOpen) {
+        closeAuthorDropdown();
+        return;
+      }
+      if (isInputActive) {
+        activeEl.blur();
+        return;
+      }
+    }
+
+    // Question mark "?" or Shift + "/" toggles cheat sheet modal (when not typing in an input)
+    if (e.key === '?' && !isInputActive) {
+      e.preventDefault();
+      if (isShortcutsModalOpen()) {
+        closeShortcutsModal();
+      } else {
+        openShortcutsModal();
+      }
+      return;
+    }
+
+    // Don't trigger other single-key shortcuts if modal is open
+    if (isShortcutsModalOpen()) return;
 
     // Spacebar triggers New Quote (only when not typing in search box)
     if (e.code === 'Space' && !isInputActive) {
       e.preventDefault();
       fetchRandomQuote();
+      return;
     }
 
     // Slash "/" focuses search input
@@ -743,11 +818,14 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       searchInput.focus();
       searchInput.select();
+      return;
     }
 
-    // Escape clears search when focused
-    if (e.key === 'Escape' && isInputActive) {
-      searchInput.blur();
+    // "T" or "t" toggles light/dark theme
+    if ((e.key === 't' || e.key === 'T') && !isInputActive) {
+      e.preventDefault();
+      themeToggle.click();
+      return;
     }
   });
 

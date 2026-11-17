@@ -14,6 +14,7 @@ An interactive full-stack web application built with **Python Flask**, **Vanilla
 - **Favorites & Bookmarks**: Save favorite quotes locally (`localStorage`) with one click (🤍/❤️) and view them via a dedicated "Favorites" chip filter.
 - **Pagination & "Load More"**: Batch loading (12 cards at a time) for optimal DOM performance and smooth browsing.
 - **Back to Top FAB**: Floating action button that appears when scrolled to the bottom for instant return to top.
+- **Keyboard Shortcuts Modal**: Built-in cheat sheet accessible via the `?` header button or pressing <kbd>?</kbd>.
 - **Clipboard Copy**: One-click formatted quote copying to clipboard.
 - **Light & Dark Mode**: Persistent theme toggle matching modern design aesthetics.
 - **REST API**: Clean endpoints for integration or programmatic access.
@@ -72,4 +73,7 @@ All 14 tests verify:
 ## Keyboard Shortcuts
 - <kbd>Space</kbd>: Fetch a new random quote
 - <kbd>/</kbd>: Focus search bar
-- <kbd>Esc</kbd>: Unfocus search bar
+- <kbd>Esc</kbd>: Unfocus search bar / close dialogs
+- <kbd>T</kbd>: Toggle light / dark theme
+- <kbd>?</kbd>: Open / close keyboard shortcuts cheat sheet
+- <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>Enter</kbd>: Navigate and select in author combobox

@@ -21,6 +21,9 @@
         </div>
       </div>
       <div class="header-actions">
+        <button id="shortcuts-help-btn" class="icon-btn" aria-label="Keyboard shortcuts" title="Keyboard shortcuts (?)">
+          <span class="help-icon">?</span>
+        </button>
         <button id="theme-toggle" class="icon-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
           <span class="theme-icon">🌙</span>
         </button>
@@ -151,8 +154,52 @@
 
     <!-- Footer -->
     <footer class="app-footer">
-      <p>Powered by <strong>Python Flask</strong> &amp; <strong>Vanilla JavaScript</strong> • Press <kbd>Space</kbd> for random quote, <kbd>/</kbd> to search</p>
+      <p>Powered by <strong>Python Flask</strong> &amp; <strong>Vanilla JavaScript</strong></p>
     </footer>
+  </div>
+
+  <!-- Keyboard Shortcuts Modal -->
+  <div id="shortcuts-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-icon">⌨️</span>
+          <h3 id="modal-title">Keyboard Shortcuts</h3>
+        </div>
+        <button id="close-modal-btn" class="modal-close-btn" aria-label="Close shortcuts modal" title="Close (Esc)">✕</button>
+      </div>
+      <div class="modal-body">
+        <ul class="shortcuts-list">
+          <li class="shortcut-item">
+            <span class="shortcut-desc">New random quote</span>
+            <div class="shortcut-keys"><kbd>Space</kbd></div>
+          </li>
+          <li class="shortcut-item">
+            <span class="shortcut-desc">Focus search bar</span>
+            <div class="shortcut-keys"><kbd>/</kbd></div>
+          </li>
+          <li class="shortcut-item">
+            <span class="shortcut-desc">Unfocus search / Dismiss modals</span>
+            <div class="shortcut-keys"><kbd>Esc</kbd></div>
+          </li>
+          <li class="shortcut-item">
+            <span class="shortcut-desc">Toggle light / dark theme</span>
+            <div class="shortcut-keys"><kbd>T</kbd></div>
+          </li>
+          <li class="shortcut-item">
+            <span class="shortcut-desc">Navigate author combobox</span>
+            <div class="shortcut-keys"><kbd>↑</kbd> <kbd>↓</kbd> <kbd>Enter</kbd></div>
+          </li>
+          <li class="shortcut-item">
+            <span class="shortcut-desc">Show / hide shortcuts cheat sheet</span>
+            <div class="shortcut-keys"><kbd>?</kbd></div>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <span class="modal-hint">Press <kbd>Esc</kbd> or click anywhere outside to close</span>
+      </div>
+    </div>
   </div>
 
   <script src="/static/js/app.js"></script>
