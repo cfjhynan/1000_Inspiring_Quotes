@@ -8,6 +8,7 @@ An interactive full-stack web application built with **Python Flask**, **Vanilla
 
 - **1000 Curated Quotes**: Sourced across Philosophy, Science & Technology, Leadership, Inspiration, Wisdom, and Artificial Intelligence.
 - **Random Quote Generator**: Smooth transition hero card with one-click random generation (or press <kbd>Spacebar</kbd>).
+- **Previous Quote History**: Step backward through recently viewed quotes (or press <kbd>P</kbd> / <kbd>←</kbd>) so skipped quotes are never lost.
 - **Search & Filter**: Real-time debounced search by quote text or author name (press <kbd>/</kbd> to quickly search).
 - **Searchable Author Combobox**: Fast autocomplete input with keyboard navigation (<kbd>↑</kbd>/<kbd>↓</kbd>/<kbd>Enter</kbd>) across 120+ authors.
 - **Category Chips**: Fast filtering by category (All, Philosophy, Science, AI, etc.).
@@ -72,6 +73,7 @@ All 14 tests verify:
 
 ## Keyboard Shortcuts
 - <kbd>Space</kbd>: Fetch a new random quote
+- <kbd>P</kbd> or <kbd>←</kbd>: Go back to previous quote in history
 - <kbd>/</kbd>: Focus search bar
 - <kbd>Esc</kbd>: Unfocus search bar / exit modals
 - <kbd>T</kbd>: Toggle light / dark theme

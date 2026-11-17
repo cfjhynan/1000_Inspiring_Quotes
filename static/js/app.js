@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const featuredFavBtn = document.getElementById('featured-fav-btn');
   const featuredFavIcon = document.getElementById('featured-fav-icon');
   const featuredFavText = document.getElementById('featured-fav-text');
+  const prevQuoteBtn = document.getElementById('prev-quote-btn');
   const newQuoteBtn = document.getElementById('new-quote-btn');
   const copyBtn = document.getElementById('copy-btn');
   const copyText = document.getElementById('copy-text');
@@ -180,6 +181,65 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 2500);
   }
 
+  // --- Quote History (Previous Quote) ---
+  const quoteHistory = [];
+  let historyIndex = -1;
+  const MAX_HISTORY = 50;
+
+  function updatePrevButtonState() {
+    if (!prevQuoteBtn) return;
+    const hasPrev = historyIndex > 0;
+    prevQuoteBtn.disabled = !hasPrev;
+    if (hasPrev) {
+      const prevQuote = quoteHistory[historyIndex - 1];
+      const previewText = prevQuote.quote.length > 35 ? prevQuote.quote.slice(0, 35) + '...' : prevQuote.quote;
+      prevQuoteBtn.title = `Previous: "${previewText}" (Press P or ←)`;
+    } else {
+      prevQuoteBtn.title = 'No previous quote in history';
+    }
+  }
+
+  function displayHeroQuote(data) {
+    currentQuote = data;
+    featuredQuote.classList.add('fade-out');
+    setTimeout(() => {
+      featuredQuote.textContent = data.quote;
+      featuredAuthor.textContent = `— ${data.author}`;
+      featuredCategory.textContent = data.category;
+      featuredId.textContent = `#${data.id}`;
+      featuredQuote.classList.remove('fade-out');
+      updateFeaturedFavButton();
+      updatePrevButtonState();
+    }, 150);
+  }
+
+  function addToHistory(quote) {
+    if (!quote) return;
+    // If user previously went back into history, truncate forward history on new quote
+    if (historyIndex < quoteHistory.length - 1) {
+      quoteHistory.splice(historyIndex + 1);
+    }
+    // Prevent immediate duplicate
+    if (quoteHistory.length === 0 || quoteHistory[quoteHistory.length - 1].id !== quote.id) {
+      quoteHistory.push(quote);
+      if (quoteHistory.length > MAX_HISTORY) {
+        quoteHistory.shift();
+      }
+    }
+    historyIndex = quoteHistory.length - 1;
+  }
+
+  function goToPreviousQuote() {
+    if (historyIndex > 0) {
+      historyIndex--;
+      displayHeroQuote(quoteHistory[historyIndex]);
+    }
+  }
+
+  if (prevQuoteBtn) {
+    prevQuoteBtn.addEventListener('click', goToPreviousQuote);
+  }
+
   // --- Fetch Random Quote ---
   async function fetchRandomQuote() {
     try {
@@ -190,15 +250,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const favQuotes = currentQuotesList.filter(item => isFavorite(item.id));
         if (favQuotes.length > 0) {
           const pick = favQuotes[Math.floor(Math.random() * favQuotes.length)];
-          currentQuote = pick;
-          setTimeout(() => {
-            featuredQuote.textContent = pick.quote;
-            featuredAuthor.textContent = `— ${pick.author}`;
-            featuredCategory.textContent = pick.category;
-            featuredId.textContent = `#${pick.id}`;
-            featuredQuote.classList.remove('fade-out');
-            updateFeaturedFavButton();
-          }, 150);
+          addToHistory(pick);
+          displayHeroQuote(pick);
           return;
         }
       }
@@ -216,20 +269,13 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new Error('Failed to fetch quote');
       }
       const data = await res.json();
-      currentQuote = data;
-
-      setTimeout(() => {
-        featuredQuote.textContent = data.quote;
-        featuredAuthor.textContent = `— ${data.author}`;
-        featuredCategory.textContent = data.category;
-        featuredId.textContent = `#${data.id}`;
-        featuredQuote.classList.remove('fade-out');
-        updateFeaturedFavButton();
-      }, 150);
+      addToHistory(data);
+      displayHeroQuote(data);
     } catch (err) {
       console.error(err);
       featuredQuote.textContent = "Could not load quote. Try resetting filters.";
       featuredQuote.classList.remove('fade-out');
+      updatePrevButtonState();
     }
   }
 
@@ -810,6 +856,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.code === 'Space' && !isInputActive) {
       e.preventDefault();
       fetchRandomQuote();
+      return;
+    }
+
+    // "P" / "p" or Left Arrow triggers Previous Quote
+    if ((e.key === 'p' || e.key === 'P' || e.key === 'ArrowLeft') && !isInputActive) {
+      if (historyIndex > 0) {
+        e.preventDefault();
+        goToPreviousQuote();
+      }
       return;
     }
 

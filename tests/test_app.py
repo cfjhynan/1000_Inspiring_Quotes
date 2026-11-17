@@ -55,6 +55,7 @@ class TestAPIEndpoints:
         assert b"back-to-top-btn" in res.data
         assert b"load-more-btn" in res.data
         assert b"featured-fav-btn" in res.data
+        assert b"prev-quote-btn" in res.data
         assert b"favorites-chip" in res.data
         assert b"shortcuts-help-btn" in res.data
         assert b"shortcuts-modal" in res.data
