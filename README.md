@@ -73,7 +73,7 @@ All 14 tests verify:
 ## Keyboard Shortcuts
 - <kbd>Space</kbd>: Fetch a new random quote
 - <kbd>/</kbd>: Focus search bar
-- <kbd>Esc</kbd>: Unfocus search bar / close dialogs
+- <kbd>Esc</kbd>: Unfocus search bar / exit modals
 - <kbd>T</kbd>: Toggle light / dark theme
 - <kbd>?</kbd>: Open / close keyboard shortcuts cheat sheet
 - <kbd>↑</kbd> / <kbd>↓</kbd> / <kbd>Enter</kbd>: Navigate and select in author combobox
