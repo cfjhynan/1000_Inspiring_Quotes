@@ -1067,6 +1067,95 @@ mark.highlight {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
+/* Share Popover */
+.share-popover {
+  position: fixed;
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg), 0 12px 28px rgba(0, 0, 0, 0.45);
+  width: 220px;
+  z-index: 1500;
+  overflow: hidden;
+  animation: popoverFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes popoverFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.share-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--surface-alt);
+}
+
+.share-popover-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.share-close-btn {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: var(--radius-sm);
+  line-height: 1;
+  transition: color var(--transition-fast);
+}
+
+.share-close-btn:hover {
+  color: var(--text-main);
+}
+
+.share-options {
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem;
+}
+
+.share-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: var(--radius-sm);
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.share-option:hover {
+  background-color: var(--surface-alt);
+  color: var(--primary);
+}
+
+.share-option-icon {
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .app-container {

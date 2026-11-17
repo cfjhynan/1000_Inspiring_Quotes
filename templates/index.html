@@ -53,6 +53,10 @@
               <span class="btn-icon">📋</span>
               <span id="copy-text">Copy</span>
             </button>
+            <button id="featured-share-btn" class="btn btn-secondary share-btn" title="Share quote" aria-label="Share quote">
+              <span class="btn-icon">🔗</span>
+              <span>Share</span>
+            </button>
             <button id="prev-quote-btn" class="btn btn-secondary prev-quote-btn" title="No previous quote in history" aria-label="Previous quote" disabled>
               <span class="btn-icon">◀</span>
               <span>Previous</span>
@@ -200,6 +204,32 @@
           </li>
         </ul>
       </div>
+    </div>
+  </div>
+
+  <!-- Share Popover Menu -->
+  <div id="share-popover" class="share-popover" role="menu" style="display: none;" aria-label="Share quote options">
+    <div class="share-popover-header">
+      <span class="share-popover-title">Share Quote</span>
+      <button id="close-share-btn" class="share-close-btn" aria-label="Close share menu">✕</button>
+    </div>
+    <div class="share-options">
+      <a id="share-x-btn" class="share-option" href="#" target="_blank" rel="noopener noreferrer" role="menuitem">
+        <span class="share-option-icon">𝕏</span>
+        <span class="share-option-name">X (Twitter)</span>
+      </a>
+      <a id="share-telegram-btn" class="share-option" href="#" target="_blank" rel="noopener noreferrer" role="menuitem">
+        <span class="share-option-icon">✈️</span>
+        <span class="share-option-name">Telegram</span>
+      </a>
+      <a id="share-whatsapp-btn" class="share-option" href="#" target="_blank" rel="noopener noreferrer" role="menuitem">
+        <span class="share-option-icon">💬</span>
+        <span class="share-option-name">WhatsApp</span>
+      </a>
+      <a id="share-linkedin-btn" class="share-option" href="#" target="_blank" rel="noopener noreferrer" role="menuitem">
+        <span class="share-option-icon">💼</span>
+        <span class="share-option-name">LinkedIn</span>
+      </a>
     </div>
   </div>
 

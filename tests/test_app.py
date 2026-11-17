@@ -55,10 +55,12 @@ class TestAPIEndpoints:
         assert b"back-to-top-btn" in res.data
         assert b"load-more-btn" in res.data
         assert b"featured-fav-btn" in res.data
+        assert b"featured-share-btn" in res.data
         assert b"prev-quote-btn" in res.data
         assert b"favorites-chip" in res.data
         assert b"shortcuts-help-btn" in res.data
         assert b"shortcuts-modal" in res.data
+        assert b"share-popover" in res.data
         assert b"Press <kbd>Space</kbd>" not in res.data
 
     def test_random_quote_unfiltered(self, client):

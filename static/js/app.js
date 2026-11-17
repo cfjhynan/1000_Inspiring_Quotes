@@ -40,6 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const shortcutsHelpBtn = document.getElementById('shortcuts-help-btn');
   const shortcutsModal = document.getElementById('shortcuts-modal');
   const closeModalBtn = document.getElementById('close-modal-btn');
+  const featuredShareBtn = document.getElementById('featured-share-btn');
+  const sharePopover = document.getElementById('share-popover');
+  const closeShareBtn = document.getElementById('close-share-btn');
+  const shareXBtn = document.getElementById('share-x-btn');
+  const shareTelegramBtn = document.getElementById('share-telegram-btn');
+  const shareWhatsappBtn = document.getElementById('share-whatsapp-btn');
+  const shareLinkedinBtn = document.getElementById('share-linkedin-btn');
 
   // --- Favorites (localStorage) ---
   const FAVORITES_STORAGE_KEY = 'quoteverse-favorites';
@@ -309,6 +316,112 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!currentQuote) return;
     const text = `“${currentQuote.quote}”\n— ${currentQuote.author} (${currentQuote.category})`;
     copyToClipboard(text);
+  });
+
+  // --- Share Quote Functionality ---
+  let currentShareQuote = null;
+
+  function closeSharePopover() {
+    if (sharePopover) {
+      sharePopover.style.display = 'none';
+    }
+    currentShareQuote = null;
+  }
+
+  function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  async function handleShare(quote, triggerBtn) {
+    if (!quote) return;
+
+    const quoteText = `“${quote.quote}” — ${quote.author}`;
+    const shareUrl = window.location.href;
+
+    // Use native share on mobile devices
+    if (isMobileDevice() && navigator.share) {
+      try {
+        await navigator.share({
+          title: `Quote by ${quote.author}`,
+          text: quoteText,
+          url: shareUrl
+        });
+        showToast('Quote shared! ✨');
+        return;
+      } catch (err) {
+        if (err.name !== 'AbortError') {
+          console.error('Web share error:', err);
+        } else {
+          return;
+        }
+      }
+    }
+
+    openSharePopover(quote, triggerBtn);
+  }
+
+  function openSharePopover(quote, triggerBtn) {
+    if (!sharePopover) return;
+    currentShareQuote = quote;
+
+    const quoteText = `“${quote.quote}” — ${quote.author}`;
+    const shareUrl = window.location.origin;
+
+    // 1) X (Twitter)
+    shareXBtn.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(quoteText)}&url=${encodeURIComponent(shareUrl)}`;
+
+    // 2) Telegram
+    shareTelegramBtn.href = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(quoteText)}`;
+
+    // 3) WhatsApp
+    shareWhatsappBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(`${quoteText}\n${shareUrl}`)}`;
+
+    // 4) LinkedIn
+    shareLinkedinBtn.href = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+
+    sharePopover.style.display = 'block';
+
+    const btnRect = triggerBtn.getBoundingClientRect();
+    const popoverWidth = 220;
+    const popoverHeight = 195;
+
+    let left = btnRect.left;
+    if (left + popoverWidth > window.innerWidth - 16) {
+      left = window.innerWidth - popoverWidth - 16;
+    }
+    if (left < 16) left = 16;
+
+    let top = btnRect.bottom + 8;
+    if (top + popoverHeight > window.innerHeight - 16) {
+      top = btnRect.top - popoverHeight - 8;
+    }
+
+    sharePopover.style.left = `${left}px`;
+    sharePopover.style.top = `${top}px`;
+  }
+
+  if (featuredShareBtn) {
+    featuredShareBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (currentQuote) {
+        handleShare(currentQuote, featuredShareBtn);
+      }
+    });
+  }
+
+  if (closeShareBtn) {
+    closeShareBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeSharePopover();
+    });
+  }
+
+  document.addEventListener('click', (e) => {
+    if (sharePopover && sharePopover.style.display !== 'none') {
+      if (!sharePopover.contains(e.target)) {
+        closeSharePopover();
+      }
+    }
   });
 
   newQuoteBtn.addEventListener('click', fetchRandomQuote);
@@ -757,8 +870,19 @@ document.addEventListener('DOMContentLoaded', () => {
       copyToClipboard(`“${item.quote}”\n— ${item.author}`);
     });
 
+    const cardShareBtn = document.createElement('button');
+    cardShareBtn.className = 'card-icon-btn card-share-btn';
+    cardShareBtn.title = 'Share quote';
+    cardShareBtn.setAttribute('aria-label', 'Share quote');
+    cardShareBtn.innerHTML = '🔗';
+    cardShareBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      handleShare(item, cardShareBtn);
+    });
+
     cardActions.appendChild(cardFavBtn);
     cardActions.appendChild(cardCopyBtn);
+    cardActions.appendChild(cardShareBtn);
 
     footer.appendChild(author);
     footer.appendChild(cardActions);
@@ -836,11 +960,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const activeEl = document.activeElement;
     const isInputActive = activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'SELECT' || activeEl.tagName === 'TEXTAREA');
 
-    // Escape closes modal first, then dropdown, then blurs search
+    // Escape closes modal first, then share popover, then dropdown, then blurs search
     if (e.key === 'Escape') {
       if (isShortcutsModalOpen()) {
         e.preventDefault();
         closeShortcutsModal();
+        return;
+      }
+      if (sharePopover && sharePopover.style.display !== 'none') {
+        e.preventDefault();
+        closeSharePopover();
         return;
       }
       if (isAuthorDropdownOpen) {

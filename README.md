@@ -17,6 +17,7 @@ An interactive full-stack web application built with **Python Flask**, **Vanilla
 - **Back to Top FAB**: Floating action button that appears when scrolled to the bottom for instant return to top.
 - **Keyboard Shortcuts Modal**: Built-in cheat sheet accessible via the `?` header button or pressing <kbd>?</kbd>.
 - **Clipboard Copy**: One-click formatted quote copying to clipboard.
+- **Social Media & Native Sharing**: Share quotes directly to 𝕏 (Twitter), ✈️ Telegram, 💬 WhatsApp, and 💼 LinkedIn, plus Web Share API support on mobile.
 - **Light & Dark Mode**: Persistent theme toggle matching modern design aesthetics.
 - **REST API**: Clean endpoints for integration or programmatic access.
 
