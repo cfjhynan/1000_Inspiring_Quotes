@@ -723,14 +723,14 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
 
     const blockquote = document.createElement('blockquote');
-    blockquote.textContent = `“${item.quote}”`;
+    blockquote.innerHTML = `“${highlightMatch(item.quote, searchQuery)}”`;
 
     const footer = document.createElement('div');
     footer.className = 'card-footer';
     
     const author = document.createElement('cite');
     author.className = 'author-name';
-    author.textContent = `— ${item.author}`;
+    author.innerHTML = `— ${highlightMatch(item.author, searchQuery)}`;
 
     const cardActions = document.createElement('div');
     cardActions.className = 'grid-card-actions';
@@ -774,6 +774,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+  }
+
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function highlightMatch(text, query) {
+    if (!text) return '';
+    const safeText = escapeHtml(text);
+    if (!query || !query.trim()) {
+      return safeText;
+    }
+    const escapedQuery = escapeRegExp(escapeHtml(query.trim()));
+    const regex = new RegExp(`(${escapedQuery})`, 'gi');
+    return safeText.replace(regex, '<mark class="highlight">$1</mark>');
   }
 
   // --- Keyboard Shortcuts Modal ---

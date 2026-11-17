@@ -707,6 +707,24 @@ blockquote.fade-out {
   color: var(--text-main);
 }
 
+/* Search Query Highlight in Cards */
+mark.highlight {
+  background-color: rgba(245, 158, 11, 0.28);
+  color: #fde047;
+  font-weight: 600;
+  padding: 0.08rem 0.25rem;
+  border-radius: var(--radius-sm);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  border-bottom: 2px solid rgba(245, 158, 11, 0.7);
+}
+
+[data-theme="light"] mark.highlight {
+  background-color: #fef08a;
+  color: #78350f;
+  border-bottom: 2px solid #d97706;
+}
+
 .grid-card .card-footer {
   padding-top: 0.75rem;
   display: flex;
